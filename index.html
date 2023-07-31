@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>BridGen</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-color.svg">
+
+    <!-- custom styles-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+</head>
+
+<body>
+    <nav>
+        <label class="logo"><a href="index.html">
+                <img src="images/icons/logo-color.svg"></a>
+        </label>
+        <ul id="menu">
+            <li class="nav-one"><a class="active" href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="blogs.html">BLOGS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+        <p id="showHide" hidden="true">false</p>
+        <label for="check" class="checkbtn" onclick="showMenu()">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 8H50V13.5556H0V8ZM0 21.8889H50V27.4444H0V21.8889ZM0 35.7778H50V41.3333H0V35.7778Z" />
+            </svg>
+        </label>
+    </nav>
+
+    <div class="main-page">
+        <div class="banner-section">
+            <img class="banner-img" src="images/img-banner-blurred.png">
+            <h1><img class="banner-h1" src="images/icons/logo-color.svg"></h1>
+            <h2>bridging and uniting generations in a workplace.</h2>
+
+            <a class="scroll-to-main-btn" href="#st-main">
+                <div class="scroll-btn-bg"></div>
+                <img class="arrow-down-left" src="images/arrow-down.gif"><span>SEE MORE BELOW</span><img
+                    class="arrow-down" src="images/arrow-down.gif">
+            </a>
+        </div>
+
+        <div id="st-main"></div>
+        <div class="feature-section">
+            <h3 id="section-title">INTERACTIVE VISUAL NOVEL</h3>
+            <div class="feature-row">
+                <div class="main-featured-blogs">
+                    <div class="mfb-row" href="#">
+                        <img src="images/img-sample.png">
+                        <div class="mfb-texts">
+                            <h5>How to Clean Vinyl Records</h5>
+                            <p>In this guide, we'll go over some tips for keeping vinyl records clean to ensure that they remain in top condition for years to come.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="shop.html" class="button">
+                    <p>START</p>
+            </a>
+        </div>
+
+        <div class="feature-section">
+            <h3 id="section-title">LEARN</h3>
+            <div class="feature-row">
+                <a href="">
+                    <div class="feature-blog">
+                        <img src="images/img-sample.png">
+                        <p class="feature-blog-title">HOW TO CLEAN <br>VINYL RECORDS</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="feature-blog">
+                        <img src="images/img-sample.png">
+                        <p class="feature-blog-title">HOW TO MAKE A<br>CLEANING SOLUTION</p>
+                    </div>
+                </a>
+            </div>
+
+            <a href="blogs.html" class="button" id="feature-blog-btn">
+                    <p>VIEW MORE</p>
+            </a>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <img class="banner-h1" src="images/icons/logo-color.svg">
+                <h2>bridging and uniting generations in a workplace.</h2>
+                <div class="footer-contact">
+                    <a class="footer-contact-icon" href="mailto:bridgen@gmail.com" target="_blank"><img
+                            src="images/icons/contact-email-dark.svg"></a>
+                    <a class="footer-contact-icon" href="tel:+639173227817" target="_blank"><img
+                            src="images/icons/contact-call-dark.svg"></a>
+                    <a class="footer-contact-icon" href="https://www.facebook.com/andreicarmelo" target="_blank"><img
+                            src="images/icons/contact-facebook-dark.svg"></a>
+                </div>
+                <a class="footer-nav" href="index.html">HOME</a>
+                <a class="footer-nav" href="shop.html">SHOP</a>
+                <a class="footer-nav" href="blogs.html">BLOGS</a>
+                <a class="footer-nav" href="about.html">ABOUT</a>
+
+            </div>
+        </div>
+        <div class="subfooter">
+            <p>&copy; COPYRIGHT 2023 GROOVE CRATE. <br>DEVELOPED BY CARMELO BUENAVENTURA</p>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Navbar Show Hide Script-->
+
+<script>
+
+    function showMenu() {
+        var show = document.getElementById("showHide").innerHTML;
+        toggleScroll();
+
+        if (show == "false") {
+            document.getElementById('menu').id = "menu-show";
+            document.getElementById('showHide').innerHTML = "true";
+        }
+
+        if (show == "true") {
+            document.getElementById('menu-show').id = "menu";
+            document.getElementById('showHide').innerHTML = "false";
+        }
+
+    }
+
+    function toggleScroll() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
+    }
+
+</script>
+
+</html>
