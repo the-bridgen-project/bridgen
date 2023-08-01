@@ -1,12 +1,12 @@
 :root {
     /*COLOR PALETTE*/
     --white: #F6F6F6;
-    --light-cyan: #FFD460; /*YELLOW*/
-    --blue: #EA5455; /*RED*/
+    --cream: #FFF2D6;
+    --yellow: #FFD460;
+    --orange: #F07B3D;
+    --red: #EA5455;
     --dark-blue: #2E4059;
     --dark-gray: #0A0E14;
-    --orange: #F07B3D;
-    --cream: #FFF2D6; /*CREAM*/
 }
 
 @media (max-width: 1800px) {
