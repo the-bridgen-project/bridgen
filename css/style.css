@@ -548,65 +548,233 @@ nav a:hover {
 /*******************ABOUT PAGE********************/
 .about-section{
     width: 100%;
-    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--dark-blue);
+    background-color: var(--cream);
 }
 
-.about-section h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 96px;
-    font-weight: 800;
-    text-align: center;
-    color: var(--orange);
-    line-height: 96px;
+.about-bridgen{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
-    margin: 200px 0 0 0;
+.about-section .about-h1 {
+    margin: 75px 0 0 0;
 
     transition: all .4s ease;
 }
 
-.about-section h1 span {
-    color: var(--light-cyan);
-}
-
-.about-section h2 {
+.about-bridgen h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    text-align: center;
-    color: var(--white);
-    margin: 40px 0 0 0;
+    text-align: left;
+    color: var(--dark-blue);
+    margin: 20px 0 0 0;
 
     transition: all .4s ease;
 }
 
-.about-section p{
+.about-bridgen p{
     font-family: 'Montserrat', sans-serif;
     width: 900px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    text-align: center;
-    color: var(--white);
+    text-align: left;
+    color: var(--dark-blue);
     margin: 30px 0 50px 0;
 
     transition: all .4s ease;
 }
+
+.about-mv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--yellow);
+
+    padding: 0 0 100px 0;
+}
+
+.mv-row{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: 100px 0 0 0 ;
+}
+
+.mv-row img{
+    width: 400px;
+    height: 300px;
+}
+
+.mv-row .mv-texts{
+    width: 400px;
+    margin: 0;
+}
+
+.about-mv h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: center;
+    color: var(--cream);
+    margin: 0;
+
+    width: 150px;
+    height: 40px;
+    background-color: var(--orange);
+    border-radius: 10px;
+
+    transition: all .4s ease;
+}
+
+.about-mv p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--dark-blue);
+    margin: 10px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+
+/*********/
+
+
+.au-team-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    height: 700px;
+
+    background-color: var(--cream);
+  }
+  
+  .au-team-section-h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 56px;
+    color: var(--dark-blue);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 0 auto;
+
+    width: 250px;
+    height: 56px;
+    background-color: var(--orange);
+    border-radius: 10px;
+
+    transition: all .4s ease;
+  }
+  
+  .au-team-carousel-gallery {
+    width: 1160px;
+    height: 430px;
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .au-team-carousel-cont {
+    width: 1850px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .au-team-carousel-card {
+    width: 200px;
+    height: 333px;
+  
+    background-color: var(--orange);
+  
+    border-radius: 16px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+  
+    overflow: hidden;
+  }
+  
+  .au-team-pic {
+    width: 200px;
+    height: auto;
+  
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .au-team-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--dark-blue);
+    text-align: center;
+  
+    margin: auto;
+  
+    cursor: default;
+  }
+  
+  .au-team-card-cover {
+    width: 200px;
+    height: 333px;
+  
+    background-image: linear-gradient(to bottom, #e976348b, #E97534);
+  
+    border-radius: 16px;
+  
+    position: absolute;
+  
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  
+    opacity: 0;
+  }
+  
+  .au-team-card-cover:hover {
+    opacity: 1;
+  }
 
 /*******************END OF ABOUT PAGE********************/
 
 /*******************CONTACT PAGE********************/
 .contact-section{
     width: 100%;
-    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--dark-blue);
+    background-color: var(--cream);
 }
 
 .contact-section h1 {
@@ -614,21 +782,21 @@ nav a:hover {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
-    color: var(--white);
+    color: var(--dark-blue);
     line-height: 36px;
 
-    margin: 200px 0 0 0;
+    margin: 75px 0 0 0;
 
     transition: all .4s ease;
 }
 
 .contact-section h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 800;
     text-align: center;
-    color: var(--white);
-    margin: 40px 0 0 0;
+    color: var(--dark-blue);
+    margin: 20px 0 75px 0;
 
     transition: all .4s ease;
 }
@@ -637,6 +805,7 @@ nav a:hover {
     display: none;
 }
 
+/**
 .contact-row{
     width: 900px;
     display: flex;
@@ -691,64 +860,187 @@ nav a:hover {
     margin: 20px 0 0 0;
 
     transition: all .4s ease;
-}
+}**/
 
-/*******************END OF CONTACT PAGE********************/
-
-/*******************SHOP PAGE********************/
-
-.shop-section {
+.contact-story{
     width: 100%;
-    background-color: var(--dark-blue);
-    margin: 0;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: var(--yellow);
 }
 
-#section-description {
+.contact-story h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 800;
-    color: var(--white);
-    margin: 10px 0 100px 0;
     text-align: center;
+    color: var(--dark-blue);
+    margin: 40px 0 0 0;
 
     transition: all .4s ease;
 }
 
-.shop-row {
+.contact-story p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-blue);
+    margin: 20px 0 50px 0;
+
+    width: 900px;
+
+    transition: all .4s ease;
+}
+
+.contact-forum{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 0 30px 0;
+    background-color: var(--cream);
+}
 
-    width: 850px;
+.contact-forum img{
+    width: 900px;
+    height: 1000px;
+    margin: 50px 0 0 0;
+}
+
+.contact-forum h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-blue);
+    margin: 40px 0 0 0;
 
     transition: all .4s ease;
 }
 
-.shop-section .button{
-    margin: 0 0 30px 0;
+.contact-forum h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-blue);
+    margin: 5px 0 0 0;
+
+    width: 900px;
+
+    transition: all .4s ease;
 }
 
+/*******************END OF CONTACT PAGE********************/
 
-#not-marquee-1,
-#not-marquee-2,
-#not-marquee-3,
-#not-marquee-4,
-#not-marquee-5 {
-    animation: none;
+/*******************Hypernarrative PAGE********************/
+
+.ivn-play-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--cream);
+}
+
+.ivn-play-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-blue);
+    line-height: 36px;
+
+    margin: 75px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.ivn-play-section h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--dark-blue);
+    margin: 20px 0 0 0;
+
+    width: 900px;
+
+    transition: all .4s ease;
+}
+
+.ivn-play-section img{
+    width: 900px;
+    height: 507px;
+    margin: 50px 0 0 0;
+}
+
+.contact-forum a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--dark-blue);
+    margin: 0 0 75px 0;
+
+    width: 900px;
+
+    transition: all .4s ease;
 }
 
 .section-margin-bot{
     margin-bottom: 50px;
 }
 
-/*******************END OF SHOP PAGE********************/
+/************/
+
+.ivn-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--cream);
+}
+
+.ivn-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-blue);
+    line-height: 36px;
+
+    margin: 75px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.ivn-section h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--dark-blue);
+    margin: 20px 0 0 0;
+
+    width: 900px;
+
+    transition: all .4s ease;
+}
+
+.ivn-section img{
+    width: 900px;
+    height: 1000px;
+    margin: 50px 0 0 0;
+}
+
+/*******************END OF HYPERNARRATIVE PAGE********************/
 
 /*******************ITEM PAGE********************/
 
