@@ -412,16 +412,6 @@ nav a:hover {
     transition: all .4s ease;
 }
 
-/**
-.footer .footer-contact {
-    width: 90px;
-    height: 20px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} **/
-
 .footer img {
     width: 20px;
     height: 20px;
@@ -577,8 +567,40 @@ nav a:hover {
     height: 150px;
     border-radius: 15px;
     background-color: var(--yellow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.about-research h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-blue);
+    margin: 0;
+
+    transition: all .4s ease;
+}
+
+.about-research a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--dark-blue);
+    margin: 5px 0 0 0;
+
+    transition: all .2s ease;
+}
+
+.about-research a:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
 /*********/
 
 
@@ -694,8 +716,8 @@ nav a:hover {
 
 /*******************END OF ABOUT PAGE********************/
 
-/*******************CONTACT PAGE********************/
-.contact-section{
+/*******************COMMUNITY PAGE********************/
+.community-section{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -704,7 +726,7 @@ nav a:hover {
     background-color: var(--cream);
 }
 
-.contact-section h1 {
+.community-section h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-weight: 800;
@@ -717,7 +739,7 @@ nav a:hover {
     transition: all .4s ease;
 }
 
-.contact-section h2 {
+.community-section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -728,11 +750,11 @@ nav a:hover {
     transition: all .4s ease;
 }
 
-.contact-section h2 br{
+.community-section h2 br{
     display: none;
 }
 
-.contact-story{
+.community-story{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -741,7 +763,7 @@ nav a:hover {
     background-color: var(--yellow);
 }
 
-.contact-story h2{
+.community-story h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 800;
@@ -752,7 +774,7 @@ nav a:hover {
     transition: all .4s ease;
 }
 
-.contact-story p{
+.community-story p{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -765,46 +787,12 @@ nav a:hover {
     transition: all .4s ease;
 }
 
-.contact-forum{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.gforms-embed{
     background-color: var(--cream);
+    margin: 40px 0 80px 0;
 }
 
-.contact-forum img{
-    width: 900px;
-    height: 1000px;
-    margin: 50px 0 0 0;
-}
-
-.contact-forum h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 800;
-    text-align: center;
-    color: var(--dark-blue);
-    margin: 40px 0 0 0;
-
-    transition: all .4s ease;
-}
-
-.contact-forum h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--dark-blue);
-    margin: 5px 0 0 0;
-
-    width: 900px;
-
-    transition: all .4s ease;
-}
-
-/*******************END OF CONTACT PAGE********************/
+/*******************END OF COMMUNITY PAGE********************/
 
 /*******************HYPER NARRATIVE PAGE********************/
 
@@ -849,14 +837,46 @@ nav a:hover {
     margin: 50px 0 0 0;
 }
 
-.contact-forum a{
+.community-survey{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--cream);
+}
+
+.community-survey h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-blue);
+    margin: 40px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.community-survey h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    text-decoration: underline;
     color: var(--dark-blue);
-    margin: 0 0 75px 0;
+    margin: 5px 0 0 0;
+
+    width: 900px;
+
+    transition: all .4s ease;
+}
+
+.community-survey a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0 75px 0;
 
     width: 900px;
 
@@ -958,6 +978,22 @@ nav a:hover {
 }
 
 /*******************END OF HYPERNARRATIVE PAGE********************/
+
+/*******************FORUM SECTIONS********************/
+
+.forum-separator{
+    width: 100%;
+    height: 5px;
+    background-color: var(--yellow);
+}
+
+.forum-section{
+    width: 100%;
+    height: 300px;
+    background-color: var(--cream);
+}
+
+/*******************END OF FORUM SECTIONS********************/
 
 /*******************BLOGS PAGE********************/
 
@@ -1124,3 +1160,56 @@ nav a:hover {
     cursor: pointer;
 }
 /*******************END OF LEARN PAGE********************/
+
+/*******************INFOGRAPHICS PAGE********************/
+
+.infographics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 900px;
+
+    margin: 40px 0 80px 0;
+}
+
+.infographics img{
+    width: 900px;
+}
+/*******************END OF INFOGRAPHICS PAGE********************/
+
+/*******************ABOUT RESEARCH PAGE********************/
+
+.research-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 900px;
+
+    margin: 20px 0 80px 0;
+}
+
+.research-texts h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 800;
+    color: var(--dark-blue);
+    transition: all .4s ease;
+    margin: 20px 0 10px 0;
+}
+
+.research-texts p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: var(--dark-blue);
+    transition: all .4s ease;
+    margin: 10px 0 10px 0;
+}
+
+/*******************END OF ABOUT RESEARCH PAGE********************/
