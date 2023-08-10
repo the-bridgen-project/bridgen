@@ -910,6 +910,53 @@ nav a:hover {
     margin: 50px 0 0 0;
 }
 
+.ivn-instructions{
+    width: 900px;
+    height: auto;
+    background-color: var(--yellow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 50px 0 0 0;
+}
+
+.ivn-instructions h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 750;
+    text-align: left;
+    color: var(--dark-blue);
+    margin: 40px 0 0 0;
+
+    width: 800px;
+
+    transition: all .4s ease;
+}
+
+.ivn-instructions ol{
+    width: 750px;
+    padding: 0;
+    margin: 20px 0 30px 0;
+}
+
+.ivn-instructions ol li{
+    font-weight: 500;
+}
+
+.ivn-instructions ol ul li{
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+}
+
+.ivn-instructions img{
+    width: 750px;
+    height: 100px;
+    margin: 5px 0 20px 0;
+}
+
 /*******************END OF HYPERNARRATIVE PAGE********************/
 
 /*******************BLOGS PAGE********************/
