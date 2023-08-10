@@ -227,85 +227,6 @@ nav a:hover {
     transition: all .4s ease;
 }
 
- /**
-.item {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-
-    transition: all .4s ease;
-}
-
-.item:hover {
-    background-color: var(--blue);
-}
-
-.item img {
-    width: 250px;
-    height: 250px;
-    background-color: var(--orange);
-}
-
-.item-name {
-    width: 230px;
-    height: 22px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    color: var(--white);
-    margin: 20px 0 0 0;
-    overflow-x: hidden;
-    white-space: nowrap;
-}
-
-.item:hover .item-name {
-    overflow-x: visible;
-
-    animation: marquee 3s linear infinite;
-    animation-delay: .5s;
-
-    transition: all 0.1s ease;
-}
-
-
-#not-marquee {
-    animation: none;
-}
-
-.item:hover {
-    -webkit-mask: linear-gradient(to left, rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 1) 0%,
-            rgba(255, 255, 255, 1) 100%,
-            rgba(255, 255, 255, 0) 100%);
-}
-
-@keyframes marquee {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(-75%);
-    }
-}
-
-
-.item:hover .item-name::-webkit-scrollbar {
-    display: none;
-}
-
-.item-price {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--white);
-    margin: 10px 0 20px 0;
-    text-align: center;
-} **/
-
 .mfb-texts{
     padding: 40px;
 }
@@ -811,63 +732,6 @@ nav a:hover {
     display: none;
 }
 
-/**
-.contact-row{
-    width: 900px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px 0 0 0;
-
-    transition: all .4s ease;
-}
-
-.contact-info-block{
-    width: 250px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    transition: all .1s ease;
-}
-
-.contact-info-block:hover {
-    background-color: #3D5A80;
-
-    transition: all .4s ease;
-}
-
-.contact-section img{
-    width: 60px;
-    transition: all .4s ease;
-}
-
-.contact-section .contact-info-title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    text-align: center;
-    color: var(--white);
-    margin: 20px 0 0 0;
-
-    transition: all .4s ease;
-}
-
-.contact-section .contact-info{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--white);
-    margin: 20px 0 0 0;
-
-    transition: all .4s ease;
-}**/
-
 .contact-story{
     width: 100%;
     display: flex;
@@ -942,7 +806,7 @@ nav a:hover {
 
 /*******************END OF CONTACT PAGE********************/
 
-/*******************Hypernarrative PAGE********************/
+/*******************HYPER NARRATIVE PAGE********************/
 
 .ivn-play-section{
     width: 100%;
@@ -1048,222 +912,7 @@ nav a:hover {
 
 /*******************END OF HYPERNARRATIVE PAGE********************/
 
-/*******************ITEM PAGE********************/
-
-.item-section {
-    width: 100%;
-    min-height: 80vh;
-    background-color: var(--dark-blue);
-    margin: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.back-to-shop{
-    color: var(--white);
-    margin: 70px 0 40px 0;
-    width: 900px;
-
-    transition: all .4s ease;
-}
-
-.back-to-shop a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 800;
-    color: var(--white);
-    text-align: left;
-
-    transition: all .4s ease;
-}
-
-.back-to-shop::before{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 0px;
-    content: "\2039";
-}
-
-.back-to-shop a:hover{
-    text-decoration: underline;
-}
-
-.item-row{
-    width: 900px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    transition: all .4s ease;
-}
-
-.item-row .item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    margin: 0 0 0 40px;
-
-    transition: all .4s ease;
-}
-
-.item-row img {
-    transition: all .4s ease;
-}
-
-.item-row .item:hover {
-    background-color: transparent;
-}
-
-.item-row .item-name {
-    height: auto;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--white);
-    
-    overflow-x: visible;
-    white-space: normal;
-}
-
-.item:hover #page-item-name {
-    animation: none;
-}
-
-.item-section .button{
-    margin: 0;
-}
-
-.item-desc-list{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    margin: 0 0 0 200px;
-
-    transition: all .4s ease;
-}
-
-.item-desc-list h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    color: var(--white);
-    margin: 15px 0 15px 0;
-}
-
-.item-desc-list p, .item-desc-list ul{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--white);
-}
-
-.item-desc-list p{
-    padding-left: 20px;
-    margin: 0 0 30px 0;
-}
-
-.item-desc-list ul{
-    margin: 0 0 30px 0;
-}
-
-
-/*******************END OF ITEM PAGE********************/
-
 /*******************BLOGS PAGE********************/
-/**
-.blogs-main-section {
-    width: 100%;
-    background-color: var(--dark-blue);
-    margin: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.blogs-main-section #section-description{
-    margin: 10px 0 60px 0;
-}
-
-.text-left{
-    text-align: left;
-    width: 900px;
-
-    transition: all .4s ease;
-}
-
-.mfb-texts{
-    padding: 40px;
-}
-
-.blogs-main-section h5{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 800;
-
-    margin: 0 0 0 0;
-}
-
-.main-featured-blogs h5{
-    color: var(--white);
-}
-
-.blogs-main-section p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--white);
-    transition: all .4s ease;
-    margin: 7px 0 0 0;
-}
-
-.main-featured-blogs{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-
-.mfb-row{
-    width: 900px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    margin: 0 0 20px 0;
-    transition: all .4s ease;
-}
-
-.mfb-row:hover{
-    background-color: var(--blue);
-    transition: all .3s ease;
-}
-
-.mfb-row img{
-    width: 360px;
-    height: 160px;
-    object-fit: cover;
-    margin: 20px 0 20px 20px;
-    transition: all .4s ease;
-}
-
-.mfb-texts{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-} **/
 
 .main-blogs-list{
     width: 900px;
@@ -1300,205 +949,131 @@ nav a:hover {
 
 /*******************END OF BLOGS PAGE********************/
 
-/*******************BLOG ARTICLE PAGE********************/
+/*******************LEARN PAGE********************/
 
-.article-section{
+.learn-section{
     width: 100%;
-    background-color: var(--dark-blue);
-    margin: 0;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: var(--cream);
 }
 
-.article-container{
+.learn-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-blue);
+    line-height: 36px;
+
+    margin: 75px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.learn-section h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-blue);
+    margin: 20px 0 0 0;
+
     width: 900px;
 
+    transition: all .4s ease;
+}
+
+.learn-infogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 40px 0;
+}
+
+.li-row{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0 0 20px 0;
+    transition: all .4s ease;
+}
+
+.li-row:hover{
+    background-color: var(--yellow);
+    transition: all .3s ease;
+}
+
+.li-row img{
+    width: 360px;
+    height: 160px;
+    /*object-fit: cover;*/
+    margin: 20px 0 20px 20px;
+    transition: all .4s ease;
+}
+
+.li-texts{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 
-    transition: all .4s ease;
+    padding: 40px;
 }
 
-.vlog{
-    margin: 0 auto 40px auto;
-
-    transition: all .4s ease;
-}
-
-.article-section h5{
+.learn-infogs h5{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 800;
-    color: var(--white);
+    font-weight: 500;
 
-    margin: 30px 0;
-
-    transition: all .4s ease;
-}
-
-.article-section p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--white);
-
-    margin: 15px 0;
-}
-
-.forum-container{
-    width: 900px;
-    height: 442px;
-    overflow-y: scroll;
-    background-color: var(--white);
-
-    transition: all .4s ease;
-}
-
-#disqus_thread{
-    padding: 40px;
-
-    transition: all .4s ease;
-}
-
-.article-section .button h7{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
+    margin: 0 0 0 0;
     color: var(--dark-blue);
 }
 
-/*******************END OF BLOG ARTICLE PAGE********************/
-
-/*******************CART PAGE********************/
-
-.cart-section{
-    width: 100%;
-    min-height: 80vh;
-    background-color: var(--white);
-    margin: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.learn-infogs p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-blue);
+    transition: all .4s ease;
+    margin: 7px 0 0 0;
 }
 
-.cart-container{
-    width: 438px;
-    /*height: 422px;*/
+.line-separator{
+    width: 900px;
+    height: 2px;
     background-color: var(--dark-blue);
-    margin: 70px auto 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-
     transition: all .4s ease;
 }
 
-.cart-row{
-    width: 370px;
+.learn-posters{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 
-    transition: all .4s ease;
+    width: 700px;
+    height: 990px;
+
+    margin: 40px 0;
 }
 
-.cart-section h5{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    color: var(--light-cyan);
-
-    margin: 20px 0 0 0;
+.learn-posters img{
+    outline: 0 solid var(--yellow);
+    transition: all .1s ease;
 }
 
-.edit{
-    width: 20px;
-    margin: 22px 0 0 0;
-
-    transition: all .4s ease;
-}
-
-.edit:hover{
+.learn-posters img:hover{
+    outline: 5px solid var(--yellow);
+    transition: all .1s ease;
     cursor: pointer;
 }
-
-.cart-line{
-    width: 400px;
-    height: 2px;
-    background-color: var(--white);
-    margin: 15px auto;
-
-    transition: all .4s ease;
-}
-
-.cart-item-img{
-    width: 40px;
-    margin: 0 20px 0 0;
-
-    transition: all .4s ease;
-}
-
-.cart-item{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    color: var(--white);
-
-    margin: 0 auto 0 0;
-
-    transition: all .4s ease;
-}
-
-.cart-item span{
-    font-weight: 400;
-}
-
-.cart-item-price{
-    /*height: 40px;*/
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: 400;
-    color: var(--white);
-
-    margin: 26px 0 0 0;
-
-    transition: all .4s ease;
-}
-
-.cart-sub{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--white);
-
-    margin: 10px 0;
-
-    transition: all .4s ease;
-}
-
-.cart-total{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    color: var(--white);
-
-    margin: 10px 0;
-
-    transition: all .4s ease;
-}
-
-#cart-button{
-    margin: 20px 0 30px 0;
-}
-/*******************END OF CART PAGE********************/
+/*******************END OF LEARN PAGE********************/
