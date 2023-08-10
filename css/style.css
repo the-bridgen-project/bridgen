@@ -598,7 +598,6 @@ nav a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--yellow);
 
     padding: 0 0 100px 0;
 }
@@ -651,6 +650,13 @@ nav a:hover {
     transition: all .4s ease;
 }
 
+
+.about-research{
+    width: 900px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: var(--yellow);
+}
 
 /*********/
 
