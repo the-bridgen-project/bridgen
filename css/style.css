@@ -989,7 +989,7 @@ nav a:hover {
 
 .forum-section{
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: var(--cream);
 }
 
