@@ -765,11 +765,13 @@ nav a:hover {
 
 .community-story h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 800;
     text-align: center;
+    letter-spacing: 0.2px;
     color: var(--dark-blue);
     margin: 40px 0 0 0;
+    width: 900px;
 
     transition: all .4s ease;
 }
@@ -778,7 +780,7 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     color: var(--dark-blue);
     margin: 20px 0 50px 0;
 
