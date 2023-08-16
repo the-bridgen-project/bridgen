@@ -621,7 +621,7 @@ nav a:hover {
     font-weight: 800;
     font-size: 32px;
     line-height: 56px;
-    color: var(--dark-blue);
+    color: var(--cream);
   
     display: flex;
     flex-direction: column;
@@ -660,7 +660,7 @@ nav a:hover {
     width: 200px;
     height: 333px;
   
-    background-color: var(--orange);
+    background-color: var(--yellow);
   
     border-radius: 16px;
   
@@ -696,7 +696,7 @@ nav a:hover {
     width: 200px;
     height: 333px;
   
-    background-image: linear-gradient(to bottom, #e976348b, #E97534);
+    background-image: linear-gradient(to bottom, #ffd5609e, #FFD460);
   
     border-radius: 16px;
   
