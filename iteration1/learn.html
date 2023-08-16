@@ -22,6 +22,43 @@
 </head>
 
 <body>
+
+    <div id="prev1" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev1()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="#"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-1-720.png">
+    </div>
+
+    <div id="prev2" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev2()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="#"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-2-720.png">
+    </div>
+
+    <div id="prev3" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev3()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="#"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-3-720.png">
+    </div>
+
+    <div id="prev4" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev4()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="#"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-4-720.png">
+    </div>
+
     <nav>
         <label class="logo"><a href="index.html">
                 <img src="images/icons/logo-color.svg"></a>
@@ -69,10 +106,10 @@
             <div class="line-separator"></div>
 
             <div class="learn-posters">
-                <img src="images/img-poster-1.png">
-                <img src="images/img-poster-2.png">
-                <img src="images/img-poster-3.png">
-                <img src="images/img-poster-4.png">
+                <img src="images/img-poster-1.png" onclick="showPrev1()">
+                <img src="images/img-poster-2.png" onclick="showPrev2()">
+                <img src="images/img-poster-3.png" onclick="showPrev3()">
+                <img src="images/img-poster-4.png" onclick="showPrev4()">
 
             </div>
 
@@ -124,6 +161,62 @@
         body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
     }
 
+    function toggleScrollBack() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'visible') ? 'auto' : 'visible';
+    }
+
 </script>
+
+<!--Prev Show Hide Script-->
+<script>
+    var prev1 = document.getElementById("prev1");
+    var prev2 = document.getElementById("prev2");
+    var prev3 = document.getElementById("prev3");
+    var prev4 = document.getElementById("prev4");
+
+    function showPrev1() {
+        prev1.style.display = "flex";
+        toggleScroll();
+    }
+
+    function showPrev2() {
+        prev2.style.display = "flex";
+        toggleScroll();
+    }
+
+    function showPrev3() {
+        prev3.style.display = "flex";
+        toggleScroll();
+    }
+
+    function showPrev4() {
+        prev4.style.display = "flex";
+        toggleScroll();
+    }
+
+    function hidePrev1() {
+        prev1.style.display = "none";
+        toggleScrollBack()
+    }
+
+    function hidePrev2() {
+        prev2.style.display = "none";
+        toggleScrollBack()
+    }
+
+    function hidePrev3() {
+        prev3.style.display = "none";
+        toggleScrollBack()
+    }
+
+    function hidePrev4() {
+        prev4.style.display = "none";
+        toggleScrollBack()
+    }
+
+</script>
+
+
 
 </html>

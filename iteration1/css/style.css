@@ -1357,3 +1357,75 @@ nav a:hover {
 
 /*******************END OF CONTACT PAGE********************/
 
+
+/*******************POSTER PREVIEW********************/
+
+.poster-prev{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    z-index: 1000;
+
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.prev-head{
+    width: 100%;
+    margin: 30px 0 0 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*.poster-prev p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white);
+    margin: 0 auto 0 30px;
+    line-height: 30px;
+
+    transition: all .4s ease;
+} */
+
+.prev-icon{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+.prev-icon:hover{
+    background-color: #f6f6f631;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.prev-image{
+    width: 540px;
+    height: 720px;
+    margin: auto;
+
+    display: flex;
+    filter: drop-shadow(0px 0px 10px #00000031);
+    
+}
+
+.back{
+    margin: 0 0 0 30px;
+}
+
+.download{
+    margin: 0 30px 0 0;
+}
+
+/*******************END OF POSTER PREVIEW********************/
+
