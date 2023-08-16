@@ -312,7 +312,7 @@ nav a:hover {
 .feature-blog:hover .feature-blog-title {
     width: 400px;
     height: 225px;
-    background-color: #ffd5607f;
+    background-color: #ffd560e4;
 
     display: flex;
     align-items: center;
@@ -331,7 +331,7 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    color: var(--white);
+    color: var(--dark-blue);
     position: absolute;
     opacity: 0;
 
