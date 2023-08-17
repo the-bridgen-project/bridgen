@@ -1375,6 +1375,10 @@ nav a:hover {
     transition: all .4s ease;
 }
 
+.contact-info-block p br{
+    display: none;
+}
+
 /*******************END OF CONTACT PAGE********************/
 
 
