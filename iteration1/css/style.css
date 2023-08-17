@@ -973,9 +973,15 @@ nav a:hover {
     margin: 20px 0 20px 0;
 }
 
-.ivn-instructions img{
+.ivn-instructions .choices{
     width: 750px;
-    height: 100px;
+    height: auto;
+    margin: 5px 0 20px 0;
+}
+
+.ivn-instructions .characters{
+    width: 750px;
+    height: auto;
     margin: 5px 0 20px 0;
 }
 
