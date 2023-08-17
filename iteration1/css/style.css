@@ -571,6 +571,8 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    transition: all .4s ease;
 }
 
 .about-research h2{
@@ -582,6 +584,10 @@ nav a:hover {
     margin: 0;
 
     transition: all .4s ease;
+}
+
+.about-research h2 br{
+    display: none;
 }
 
 .about-research a{
@@ -1023,10 +1029,6 @@ nav a:hover {
     text-decoration: underline;
 
     transition: all .2s ease;
-}
-
-.mbl-article{
-    margin: 40px 0 0 0;
 }
 
 .line-separator{

@@ -75,9 +75,88 @@
         align-items: flex-start;
     }
 
-    .about-section p{
+    .about-bridgen {
         width: 720px;
     }
+
+    .about-bridgen p{
+        width: 720px;
+    }
+
+    .mv-row{
+        width: 720px;
+        align-items: center;
+    }
+
+    .mv-row img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .mv-row .mv-texts{
+        width: 350px;
+        margin: 0;
+    }
+
+    .about-research{
+        width: 720px;
+        height: 150px;
+    }
+
+    /**OUR TEAM**/
+    .main-page{
+        background-color: var(--cream);
+    }
+
+    .au-team-section {
+        width: 860px;
+        height: auto;
+        margin: 50px auto 100px auto;
+    }
+
+    .au-team-carousel-gallery {
+        width: 860px;
+        height: auto;
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 700px;
+        margin: auto;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1) {
+        margin: 0 25px 25px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2) {
+        margin: 0 25px 25px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3) {
+        margin: 0 0 25px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4) {
+        margin: 25px 25px 0 auto;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 25px auto 0 25px;
+    }
+    /**END OF OUR TEAM**/
+
+
 
     .contact-row{
         width: 800px;
@@ -107,22 +186,6 @@
     }
 
     .text-left{
-        width: 800px;
-    }
-
-    /*******************BLOG ARTICLE PAGE********************/
-
-    .article-container{
-        width: 800px;
-    }
-
-    .vlog{
-        width: 720px;
-        height: 398px;
-        margin: 0 auto 40px auto;
-    }
-
-    .forum-container{
         width: 800px;
     }
 
@@ -294,23 +357,48 @@ nav a.active {
     .text-left{
         width: 640px;
     }
-    
-    /*******************BLOG ARTICLE PAGE********************/
 
-    .article-container{
+    /**OUR TEAM**/
+
+    .au-team-section {
         width: 640px;
     }
 
-    .vlog{
-        width: 600px;
-        height: 331px;
-        margin: 0 auto 40px auto;
+    .au-team-carousel-gallery {
+        width: 640px;
     }
 
-    .forum-container{
+    .au-team-carousel-cont {
         width: 640px;
-        height: 480px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
     }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1) {
+        margin: 0 25px 50px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2) {
+        margin: 0 0 50px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3) {
+        margin: 0 25px 50px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4) {
+        margin: 0 0 50px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+    /**END OF OUR TEAM**/
 }
 
 
@@ -359,21 +447,50 @@ nav a.active {
 
     /***************ABOUT PAGE*****************/
 
-    .about-section h1 {
-        font-size: 64px;
-        line-height: 64px;
-        margin: 150px 0 0 0;
+    .about-bridgen {
+        width: 640px;
     }
 
-    .about-section h2 {
-        font-size: 16px;
-        margin: 40px 0 0 0;
+    .about-section .about-h1 {
+        width: 200px;
+        margin: 50px 0 0 0;
     }
 
-    .about-section p{
+    .about-bridgen p{
+        width: 640px;
+        font-size: 14px;
+    }
+
+    .mv-row{
+        width: 640px;
+        align-items: center;
+    }
+
+    .mv-row img{
+        width: 300px;
+        height: auto;
+    }
+    
+    .mv-row .mv-texts{
+        width: 300px;
+        margin: 0;
+    }
+
+    .about-mv h2{
         font-size: 16px;
-        width: 600px;
-        margin: 25px 0 50px 0;
+    }
+
+    .about-mv p{
+        font-size: 14px;
+    }
+
+    .about-research{
+        width: 640px;
+        height: 150px;
+    }
+
+    .about-research h2 br{
+        display: block;
     }
 
     /*******************CONTACT PAGE********************/
@@ -469,9 +586,124 @@ nav a.active {
 
     /***************ABOUT PAGE*****************/
 
-    .about-section p{
+    .about-bridgen {
         width: 490px;
     }
+
+    .about-section .about-h1 {
+        width: 200px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
+        margin: 10px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 490px;
+        font-size: 14px;
+
+        margin: 20px 0 30px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 490px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 350px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 490px;
+        margin: 0;
+
+        order: 2;
+    }
+
+    .about-mv h2{
+        font-size: 16px;
+    }
+
+    .about-mv p{
+        font-size: 14px;
+    }
+
+    .about-research{
+        width: 490px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+    }
+
+    .about-research h2 br{
+        display: block;
+    }
+
+    .about-research a{
+        font-size: 14px;
+    }
+
+     /**OUR TEAM**/
+
+     .au-team-section {
+        width: 400px;
+    }
+
+    .au-team-section-h2 {
+        font-size: 24px;
+        line-height: 48px;
+    
+        width: 200px;
+        height: 48px;
+      }
+
+    .au-team-carousel-gallery {
+        width: 340px;
+        height: auto;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 340px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+    .au-team-name{
+        font-size: 14px;
+      }
+    /**END OF OUR TEAM**/
 
     /*******************CONTACT PAGE********************/
 
@@ -564,36 +796,6 @@ nav a.active {
         width: 500px;
     }
 
-    .mbl-article{
-        margin: 30px 0 0 0;
-    }
-
-    /*******************BLOG ARTICLE PAGE********************/
-
-    .article-container{
-        width: 500px;
-    }
-
-    .vlog{
-        width: 400px;
-        height: 221px;
-        margin: 0 auto 30px auto;
-    }
-
-    .forum-container{
-        width: 500px;
-        height: 480px;
-    }
-
-    .article-section h5{
-        font-size: 20px;
-    }
-
-    .article-section p{
-        font-size: 14px;
-        margin: 12px 0;
-    }
-
     /********************FOOTER*******************/
 
     .footer {
@@ -673,20 +875,76 @@ nav a.active {
 
     /***************ABOUT PAGE*****************/
 
-    .about-section h1 {
-        font-size: 56px;
-        line-height: 56px;
-        margin: 100px 0 0 0;
-    }
-
-    .about-section h2 {
-        font-size: 16px;
-        margin: 40px 0 0 0;
-    }
-
-    .about-section p{
-        font-size: 16px;
+    .about-bridgen {
         width: 400px;
+    }
+
+    .about-section .about-h1 {
+        width: 150px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
+        font-size: 16px;
+        margin: 5px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 400px;
+        font-size: 14px;
+
+        margin: 10px 0 30px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 400px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 300px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 400px;
+        margin: 0;
+
+        order: 2;
+    }
+
+    .about-mv h2{
+        font-size: 16px;
+    }
+
+    .about-mv p{
+        font-size: 14px;
+    }
+
+    .about-research{
+        width: 400px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+    }
+
+    .about-research h2 br{
+        display: block;
+    }
+
+    .about-research a{
+        font-size: 14px;
     }
 
     /*******************CONTACT PAGE********************/
@@ -768,37 +1026,6 @@ nav a.active {
         width: 360px;
     }
 
-    .mbl-article{
-        margin: 20px 0 0 0;
-    }
-
-    /*******************BLOG ARTICLE PAGE********************/
-
-    .article-container{
-        width: 360px;
-    }
-
-    .vlog{
-        width: 320px;
-        height: 177px;
-        margin: 0 auto 20px auto;
-    }
-
-    .forum-container{
-        width: 360px;
-        height: 580px;
-    }
-
-    .article-section h5{
-        font-size: 18px;
-        margin: 20px 0;
-    }
-
-    .article-section p{
-        font-size: 14px;
-        margin: 12px 0;
-    }
-
 }
 
 
@@ -874,30 +1101,133 @@ nav a.active {
         height: 30px;
     }
 
-    .button p, .article-section .button h7 {
+    .button p {
         font-size: 14px;
     }
 
     /***************ABOUT PAGE*****************/
 
-    .about-section h1 {
-        font-size: 36px;
-        line-height: 56px;
-
-        margin: 80px 0 0 0;
+    .about-bridgen {
+        width: 300px;
     }
 
-    .about-section h2 {
+    .about-section .about-h1 {
+        width: 120px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
         font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 300px;
+        font-size: 12px;
+
+        margin: 5px 0 20px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 300px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 275px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 300px;
         margin: 20px 0 0 0;
+
+        order: 2;
     }
 
-    .about-section p{
+    .about-mv h2{
         font-size: 14px;
-        width: 320px;
-
-        margin: 20px 0 50px 0;
+        width: 120px;
     }
+
+    .about-mv p{
+        font-size: 12px;
+    }
+
+    .about-research{
+        width: 300px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .about-research h2 br{
+        display: block;
+    }
+
+    .about-research a{
+        font-size: 12px;
+    }
+
+    /**OUR TEAM**/
+
+    .au-team-section {
+        width: 300px;
+    }
+
+    .au-team-section-h2 {
+        font-size: 18px;
+        line-height: 40px;
+    
+        width: 150px;
+        height: 40px;
+      }
+
+    .au-team-carousel-gallery {
+        width: 300px;
+        height: auto;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 260px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+    .au-team-name{
+        font-size: 14px;
+      }
+    /**END OF OUR TEAM**/
 
     /*******************CONTACT PAGE********************/
 
@@ -938,22 +1268,6 @@ nav a.active {
     .contact-section .contact-info{
         font-size: 12px;
         margin: 15px 0 0 0;
-    }
-
-    /*******************ITEM PAGE********************/
-
-    .back-to-shop{
-        margin: 30px 0 30px 0;
-        width: 300px;
-    }
-
-    .back-to-shop a{
-        font-size: 14px;
-        line-height: 14px;
-    }
-
-    .back-to-shop::before{
-        font-size: 18px;
     }
 
 
@@ -1005,40 +1319,10 @@ nav a.active {
         width: 300px;
     }
 
-    .mbl-article{
-        margin: 30px 0 0 0;
-    }
-
     #margin-bot-remove{
         margin-bottom: 20px;
     }
 
-    /*******************BLOG ARTICLE PAGE********************/
-
-    .article-container{
-        width: 300px;
-    }
-
-    .vlog{
-        width: 260px;
-        height: 144px;
-        margin: 0 auto 10px auto;
-    }
-
-    .forum-container{
-        width: 300px;
-        height: 560px;
-    }
-
-    .article-section h5{
-        font-size: 16px;
-        margin: 20px 0;
-    }
-
-    .article-section p{
-        font-size: 12px;
-        margin: 10px 0;
-    }
 }
 
 
@@ -1105,23 +1389,93 @@ nav a.active {
 
     /***************ABOUT PAGE*****************/
 
-    .about-section h1 {
-        font-size: 36px;
-        line-height: 56px;
-
-        margin: 40px 0 0 0;
-    }
-
-    .about-section h2 {
-        font-size: 12px;
-        margin: 10px 0 0 0;
-    }
-
-    .about-section p{
-        font-size: 12px;
+    .about-bridgen {
         width: 250px;
-        margin: 15px 0 50px 0;
     }
+
+    .about-section .about-h1 {
+        width: 100px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 250px;
+        font-size: 12px;
+
+        margin: 5px 0 20px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 250px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 220px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 250px;
+        margin: 20px 0 0 0;
+
+        order: 2;
+    }
+
+    .about-mv h2{
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .about-mv p{
+        font-size: 12px;
+    }
+
+    .about-research{
+        width: 250px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+        font-size: 12px;
+
+        width: 200px;
+    }
+
+    .about-research h2 br{
+        display: none;
+    }
+
+    .about-research h2 br::before{
+        margin: 5px;
+    }
+
+    .about-research a{
+        font-size: 12px;
+    }
+
+    .au-team-section-h2 {
+        font-size: 18px;
+        line-height: 40px;
+    
+        width: 150px;
+        height: 40px;
+      }
 
     /*******************CONTACT PAGE********************/
 
@@ -1217,46 +1571,12 @@ nav a.active {
         text-align: center;
     }
 
-    .mbl-article{
-        margin: 30px 0 0 0;
-    }
-
     #margin-bot-remove{
         margin-bottom: 10px;
     }
 
     #margin-bot-remove2{
         margin-bottom: 10px;
-    }
-
-    /*******************BLOG ARTICLE PAGE********************/
-
-    .article-container{
-        width: 300px;
-    }
-
-    .vlog{
-        width: 250px;
-        height: 138px;
-        margin: 0 auto 10px auto;
-    }
-
-    .forum-container{
-        width: 300px;
-        height: 560px;
-        margin: 0 auto;
-    }
-
-    .article-section h5{
-        font-size: 14px;
-        margin: 20px auto;
-        width: 250px;
-    }
-
-    .article-section p{
-        font-size: 12px;
-        margin: 10px auto;
-        width: 250px;
     }
 
 
