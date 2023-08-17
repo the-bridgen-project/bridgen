@@ -1119,6 +1119,12 @@ nav a.active {
     .infographics img{
         width: 490px;
     }
+
+    .prev-image{
+        width: 490px;
+        height: auto;
+        margin: auto;
+    }
 }
 
 
@@ -1400,6 +1406,12 @@ nav a.active {
     
     .infographics img{
         width: 400px;
+    }
+
+    .prev-image{
+        width: 380px;
+        height: auto;
+        margin: auto;
     }
 
 }
@@ -1801,6 +1813,11 @@ nav a.active {
         width: 280px;
     }
 
+    .prev-image{
+        width: 280px;
+        height: auto;
+        margin: auto;
+    }
 }
 
 
@@ -2093,5 +2110,12 @@ nav a.active {
         margin: 0 0 20px 0;
         width: 190px;
         text-align: center;
+    }
+
+
+    .prev-image{
+        width: 240px;
+        height: auto;
+        margin: auto;
     }
 }
