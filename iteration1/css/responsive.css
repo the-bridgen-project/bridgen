@@ -271,6 +271,66 @@
     .infographics img{
         width: 720px;
     }
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 720px;
+    }
+
+    .ivn-instructions{
+        width: 720px;
+        margin: 50px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+        width: 650px;
+    }
+
+    .ivn-instructions ol{
+        width: 600px;
+        margin: 20px 0 30px 0;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 600px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+    .ivn-play-section img{
+        width: 720px;
+        height: auto;
+        margin: 50px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 16px;
+        margin: 5px 0 0 0;
+        width: 720px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 720px;
+    }
 }
 
 
@@ -719,6 +779,67 @@ nav a.active {
         width: 640px;
     }
 
+    .ivn-play-section img{
+        width: 640px;
+        height: auto;
+        margin: 50px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 16px;
+        margin: 5px 0 0 0;
+        width: 640px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 640px;
+    }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 640px;
+    }
+
+    .ivn-instructions{
+        width: 640px;
+        margin: 50px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+        width: 580px;
+    }
+
+    .ivn-instructions ol{
+        width: 520px;
+        margin: 20px 0 30px 0;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 520px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
 }
 
 @media (max-width: 720px) {
@@ -1125,6 +1246,68 @@ nav a.active {
         height: auto;
         margin: auto;
     }
+
+
+    .ivn-play-section img{
+        width: 490px;
+        height: auto;
+        margin: 30px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 490px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 490px;
+    }
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 490px;
+    }
+
+    .ivn-instructions{
+        width: 490px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 14px;
+        margin: 40px 0 0 0;
+        width: 420px;
+    }
+
+    .ivn-instructions ol{
+        width: 380px;
+        margin: 20px 0 30px 0;
+        font-size: 14px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 380px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
 }
 
 
@@ -1412,6 +1595,70 @@ nav a.active {
         width: 380px;
         height: auto;
         margin: auto;
+    }
+
+
+    .ivn-play-section img{
+        width: 400px;
+        height: auto;
+        margin: 30px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 400px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 400px;
+    }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+        width: 300px;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        width: 400px;
+    }
+
+    .ivn-instructions{
+        width: 400px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        width: 360px;
+    }
+
+    .ivn-instructions ol{
+        width: 300px;
+        margin: 20px 0 30px 0;
+        font-size: 14px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 300px;
+        height: auto;
+        margin: 5px 0 20px 0;
     }
 
 }
@@ -1818,6 +2065,69 @@ nav a.active {
         height: auto;
         margin: auto;
     }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+        width: 240px;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 14px;
+        margin: 10px 0 0 0;
+        width: 280px;
+    }
+
+    .ivn-instructions{
+        width: 300px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+        width: 260px;
+    }
+
+    .ivn-instructions ol{
+        width: 220px;
+        margin: 20px 0 30px 0;
+        font-size: 12px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 220px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+    .ivn-play-section img{
+        width: 300px;
+        height: auto;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 280px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 300px;
+    }
 }
 
 
@@ -2117,5 +2427,69 @@ nav a.active {
         width: 240px;
         height: auto;
         margin: auto;
+    }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+        width: 240px;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 14px;
+        margin: 10px 0 0 0;
+        width: 240px;
+    }
+
+    .ivn-instructions{
+        width: 260px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+        width: 220px;
+    }
+
+    .ivn-instructions ol{
+        width: 180px;
+        margin: 20px 0 30px 0;
+        font-size: 12px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 180px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+    .ivn-play-section img{
+        width: 240px;
+        height: auto;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 12px;
+        margin: 5px 0 0 0;
+        width: 240px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 200px;
+        height: 60px;
     }
 }
