@@ -156,7 +156,18 @@
     }
     /**END OF OUR TEAM**/
 
+    /**RESEARCH PAGE**/
 
+    .research-texts{
+        width: 720px;
+    }
+
+    .research-texts h3 br{
+        display: block;
+    }
+
+
+    /**CONTACT**/
 
     .contact-row{
         width: 800px;
@@ -189,6 +200,77 @@
         width: 800px;
     }
 
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .learn-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 720px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 720px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 360px;
+        height: 160px;
+        /*object-fit: cover;*/
+        margin: 20px 0 20px 20px;
+    }
+
+    .li-texts{
+        padding: 30px 0 30px 40px;
+    }
+
+    .learn-infogs h5{
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 700px;
+        height: 990px;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 720px;
+        margin: 40px 0 40px 0;
+    }
+    
+    .infographics img{
+        width: 720px;
+    }
 }
 
 
@@ -493,6 +575,26 @@ nav a.active {
         display: block;
     }
 
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 640px;
+    }
+
+    .research-texts h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .research-texts h3 br{
+        display: block;
+    }
+
+    .research-texts p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
     /*******************CONTACT PAGE********************/
 
     .contact-section h1 {
@@ -538,6 +640,83 @@ nav a.active {
 
     .contact-info-block p br{
         display: block;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .learn-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 640px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 640px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 360px;
+        height: 160px;
+        /*object-fit: cover;*/
+        margin: 20px 0 20px 20px;
+    }
+
+    .li-texts{
+        padding: 20px 0 20px 40px;
+    }
+
+    .learn-infogs h5{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 550px;
+        height: 775px;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 250px;
+        height: auto;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 640px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 640px;
     }
 
 }
@@ -705,6 +884,26 @@ nav a.active {
       }
     /**END OF OUR TEAM**/
 
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 490px;
+    }
+
+    .research-texts h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .research-texts h3 br{
+        display: none;
+    }
+
+    .research-texts p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
     /*******************CONTACT PAGE********************/
 
     .contact-section h1 {  
@@ -842,7 +1041,84 @@ nav a.active {
         display: block;
     }
 
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
 
+    .learn-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 490px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 360px;
+        height: auto;
+        /*object-fit: cover;*/
+        margin: 20px;
+    }
+
+    .li-texts{
+        width: 360px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .learn-infogs h5{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: auto;
+        height: auto;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 250px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 490px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 490px;
+    }
 }
 
 
@@ -947,6 +1223,27 @@ nav a.active {
         font-size: 14px;
     }
 
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 400px;
+    }
+
+    .research-texts h3{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .research-texts h3 br{
+        display: none;
+    }
+
+    .research-texts p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
     /*******************CONTACT PAGE********************/
 
     .contact-section h1 {  
@@ -1024,6 +1321,85 @@ nav a.active {
 
     .text-left{
         width: 360px;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
+
+    .learn-section h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        width: 320px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 280px;
+        height: auto;
+        /*object-fit: cover;*/
+        margin: 20px;
+    }
+
+    .li-texts{
+        width: 280px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .learn-infogs h5{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 14px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: auto;
+        height: auto;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 250px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 400px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 400px;
     }
 
 }
@@ -1229,6 +1605,28 @@ nav a.active {
       }
     /**END OF OUR TEAM**/
 
+
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 300px;
+    }
+
+    .research-texts h3{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .research-texts h3 br{
+        display: block;
+    }
+
+    .research-texts p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
     /*******************CONTACT PAGE********************/
 
     .contact-section h1 {  
@@ -1321,6 +1719,86 @@ nav a.active {
 
     #margin-bot-remove{
         margin-bottom: 20px;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+        width: 280px;
+    }
+
+    .learn-section h2{
+        font-size: 14px;
+        margin: 10px 0 0 0;
+        width: 280px;
+    }
+
+    .learn-infogs{
+        margin: 20px 0;
+    }
+
+    .li-row{
+        width: 280px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 240px;
+        height: auto;
+        /*object-fit: cover;*/
+        margin: 20px;
+    }
+
+    .li-texts{
+        width: 240px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .learn-infogs h5{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 12px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: auto;
+        height: auto;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 220px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 280px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 280px;
     }
 
 }
@@ -1476,6 +1954,28 @@ nav a.active {
         width: 150px;
         height: 40px;
       }
+
+
+      /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 250px;
+    }
+
+    .research-texts h3{
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .research-texts h3 br{
+        display: none;
+    }
+
+    .research-texts p{
+        font-size: 12px;
+        line-height: 24px;
+    }
 
     /*******************CONTACT PAGE********************/
 
