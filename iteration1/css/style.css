@@ -730,7 +730,65 @@ nav a:hover {
     align-items: center;
     background-color: var(--cream);
 }
+.community-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 
+    /*margin: 20px 0;*/
+}
+.community-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 40px 0;
+}
+.community-pic{
+    max-width: 100%;
+    height: auto; /* Set height to auto to adjust to the content height */
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: all .4s ease;
+    align-self: center;
+}
+
+.community-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    margin: 0 0 0 0;
+    color: var(--dark-blue);
+}
+.community-row{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0 0 20px 0;
+    transition: all .4s ease;
+}
+.community-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--dark-blue);
+    transition: all .4s ease;
+    margin: 7px 0 0 0;
+}
+
+.community-section img{
+    width: 360px;
+    height: 160px;
+    /*object-fit: cover;*/
+    margin: 20px 0 20px 20px;
+    transition: all .4s ease;
+}
 .community-section h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
