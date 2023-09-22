@@ -1598,8 +1598,14 @@ nav a:hover {
   
   @media (max-width: 576px) {
   .infog-container {
+    width: 200px;
+    height: auto;
     flex-direction: column;
     align-items: center;
+  }
+  .main-page-container{
+    width: 200px;
+    height: auto;
   }
 
   .infog-container span {
@@ -1647,7 +1653,7 @@ nav a:hover {
   
   @media screen and (max-width: 576px) {
     .infogdiv-container {
-      width: 100%;
+      
      padding: 2%;
     }
     .infogdiv-container h2 {
