@@ -1761,3 +1761,15 @@ nav a:hover {
     padding: 2%;
   }
   
+  @media (max-width: 576px) {
+    .ivn-embed {
+      width: 100%;
+      height: 100vh;
+    }
+  
+    .ivn-embed iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
