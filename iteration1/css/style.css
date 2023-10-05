@@ -888,6 +888,18 @@ nav a:hover {
 
     transition: all .4s ease;
 }
+.ivn-play-section h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-blue);
+    margin: 20px 0 0 0;
+    
+    width: 900px;
+
+    transition: all .4s ease;
+}
 
 .ivn-play-section img{
     width: 900px;
@@ -1770,6 +1782,7 @@ nav a:hover {
     .ivn-embed iframe {
       width: 100%;
       height: 100%;
+      padding:2%;
     }
   }
   
