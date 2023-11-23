@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>BridGen</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-color.svg">
+
+    <!-- custom styles-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+</head>
+
+<body>
+    <nav>
+        <label class="logo"><a href="index.html">
+                <img src="images/icons/logo-color.svg"></a>
+        </label>
+        <ul id="menu">
+            <li class="nav-one"><a class="active" href="index.html">HOME</a></li>
+            <li><a href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a></li>
+            <li><a href="learn.html">LEARN</a></li>
+            <li><a href="community.html">COMMUNITY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <p id="showHide" hidden="true">false</p>
+        <label for="check" class="checkbtn" onclick="showMenu()">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 8H50V13.5556H0V8ZM0 21.8889H50V27.4444H0V21.8889ZM0 35.7778H50V41.3333H0V35.7778Z" />
+            </svg>
+        </label>
+    </nav>
+
+    <div class="main-page">
+        <div class="banner-section">
+            <img class="banner-img" src="images/img-banner.png">
+            <img class="banner-h1" src="images/icons/logo-color.svg">
+            <h2>bridging and uniting generations in a workplace.</h2>
+
+            <a class="scroll-to-main-btn" href="#st-main">
+                <div class="scroll-btn-bg"></div>
+                <img class="arrow-down-left" src="images/arrow-down.gif"><span>SEE MORE BELOW</span><img
+                    class="arrow-down" src="images/arrow-down.gif">
+            </a>
+        </div>
+
+        <div id="st-main"></div>
+        <div class="feature-section">
+            <h3 id="section-title">INTERACTIVE VISUAL NOVEL</h3>
+            <div class="feature-row">
+                <div class="main-featured-blogs">
+                    <div class="mfb-row">
+                        <div class="mfb-column">
+                            <img src="images/img-hypernarrative-thumbnail.png">
+                            <a href="interactive-visual-novel.html" class="button">
+                                <p>START</p>
+                            </a>
+                        </div>
+                        <div class="mfb-texts">
+                            <h5>INTERACTIVE VISUAL NOVEL</h5>
+                            <p>"Harmonyville" is an interactive visual novel set in Harmonyville, where players assume the role of Alex, navigating communication barriers in InnovateTech's diverse workplace. Through decision-making and problem-solving, players unravel generational dynamics, foster collaboration, and learn to harmonize diverse perspectives for meaningful connections in the corporate world.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="feature-section">
+            <h3 id="section-title">LEARN</h3>
+            <div class="feature-row">
+                <a href="infog-1.html">
+                    <div class="feature-blog">
+                        <img src="images/img-thumbnail-infog-1.png">
+                        <p class="feature-blog-title">CONFLICT RESOLUTION <br>PHRASES</p>
+                    </div>
+                </a>
+                <a href="infog-2.html">
+                    <div class="feature-blog">
+                        <img src="images/img-thumbnail-infog-2.png">
+                        <p class="feature-blog-title">WORKPLACE<br>ETIQUETTE</p>
+                    </div>
+                </a>
+                
+            </div>
+            <div class="feature-row">
+                <a href="infog-3.html">
+                    <div class="feature-blog">
+                        <img src="images/img-thumbnail-infog-1.png">
+                        <p class="feature-blog-title">CONFLICT RESOLUTION <br>PHRASES</p>
+                    </div>
+                </a>
+              
+                
+            </div>
+
+            <a href="learn.html" class="button" id="feature-blog-btn">
+                    <p>VIEW MORE</p>
+            </a>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <img class="footer-logo" src="images/icons/logo-color.svg">
+                <h2>bridging and uniting generations in a workplace.</h2>
+                <a class="footer-nav" href="index.html">HOME</a>
+                <a class="footer-nav" href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a>
+                <a class="footer-nav" href="learn.html">LEARN</a>
+                <a class="footer-nav" href="community.html">COMMUNITY</a>
+                <a class="footer-nav" href="about.html">ABOUT</a>
+
+            </div>
+        </div>
+        <div class="subfooter">
+            <p>&copy; COPYRIGHT 2023 BRIDGEN. <br>DEVELOPED BY BRIDGEN TEAM</p>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Navbar Show Hide Script-->
+
+<script>
+
+    function showMenu() {
+        var show = document.getElementById("showHide").innerHTML;
+        toggleScroll();
+
+        if (show == "false") {
+            document.getElementById('menu').id = "menu-show";
+            document.getElementById('showHide').innerHTML = "true";
+        }
+
+        if (show == "true") {
+            document.getElementById('menu-show').id = "menu";
+            document.getElementById('showHide').innerHTML = "false";
+        }
+
+    }
+
+    function toggleScroll() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
+    }
+
+</script>
+
+</html>

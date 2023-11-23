@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Contact BridGen</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-color.svg">
+
+    <!-- custom styles-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+</head>
+
+<body>
+    <nav>
+        <label class="logo"><a href="index.html">
+                <img src="images/icons/logo-color.svg"></a>
+        </label>
+        <ul id="menu">
+            <li class="nav-one"><a href="index.html">HOME</a></li>
+            <li><a href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a></li>
+            <li><a href="learn.html">LEARN</a></li>
+            <li><a href="community.html">COMMUNITY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <p id="showHide" hidden="true">false</p>
+        <label for="check" class="checkbtn" onclick="showMenu()">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 8H50V13.5556H0V8ZM0 21.8889H50V27.4444H0V21.8889ZM0 35.7778H50V41.3333H0V35.7778Z" />
+            </svg>
+        </label>
+    </nav>
+
+    <div class="main-page">
+        <div class="contact-section">
+            <h1>Have any questions?</h1>
+            <h2>Get in touch with us <br>through the following:</h2>
+            <div class="contact-row">
+                <a href="mailto:bridgencommunity@gmail.com" target="_blank" class="contact-info-block">
+                    <img src="images/icons/contact-email-dark.svg">
+                    <p class="contact-info-title">Email us:</p>
+                    <p class="contact-info">bridgencommunity<br>@gmail.com</p>
+                </a>
+                <a href="tel:+639173227817" target="_blank" class="contact-info-block">
+                    <img src="images/icons/contact-call-dark.svg">
+                    <p class="contact-info-title">Call us:</p>
+                    <p class="contact-info">+63 9173227817</p>
+                </a>
+                <a href="https://www.facebook.com/bridgencommunity" target="_blank" class="contact-info-block">
+                    <img src="images/icons/contact-facebook-dark.svg">
+                    <p class="contact-info-title">Visit our page</p>
+                    <p class="contact-info">facebook.com/<br>bridgencommunity</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <img class="footer-logo" src="images/icons/logo-color.svg">
+                <h2>bridging and uniting generations in a workplace.</h2>
+                <a class="footer-nav" href="index.html">HOME</a>
+                <a class="footer-nav" href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a>
+                <a class="footer-nav" href="learn.html">LEARN</a>
+                <a class="footer-nav" href="community.html">COMMUNITY</a>
+                <a class="footer-nav" href="about.html">ABOUT</a>
+
+            </div>
+        </div>
+        <div class="subfooter">
+            <p>&copy; COPYRIGHT 2023 BRIDGEN. <br>DEVELOPED BY BRIDGEN TEAM</p>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Navbar Show Hide Script-->
+
+<script>
+
+    function showMenu() {
+        var show = document.getElementById("showHide").innerHTML;
+        toggleScroll();
+
+        if (show == "false") {
+            document.getElementById('menu').id = "menu-show";
+            document.getElementById('showHide').innerHTML = "true";
+        }
+
+        if (show == "true") {
+            document.getElementById('menu-show').id = "menu";
+            document.getElementById('showHide').innerHTML = "false";
+        }
+
+    }
+
+    function toggleScroll() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>BridGen Learning</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-color.svg">
+
+    <!-- custom styles-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+</head>
+
+<body>
+
+    <div id="prev1" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev1()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="https://drive.google.com/uc?export=download&id=18yc2jM5i0kg4a-soTznJR3TtfQskCASh"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-1-720.png">
+    </div>
+
+    <div id="prev2" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev2()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="https://drive.google.com/uc?export=download&id=1YJPYJLUoUMMRo4y4PRg2e55EyjJYbL9_"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-2-720.png">
+    </div>
+
+    <div id="prev3" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev3()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="https://drive.google.com/uc?export=download&id=1gxYw_6ylm6ZKNDaV5bxH9E3js3d3r6wM"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-3-720.png">
+    </div>
+
+    <div id="prev4" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev4()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="https://drive.google.com/uc?export=download&id=1HH4095kxQnCd5TG_nF151jrJDm4qLAa4"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-4-720.png">
+    </div>
+
+    <nav>
+        <label class="logo"><a href="index.html">
+                <img src="images/icons/logo-color.svg"></a>
+        </label>
+        <ul id="menu">
+            <li class="nav-one"><a href="index.html">HOME</a></li>
+            <li><a href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a></li>
+            <li><a class="active" href="learn.html">LEARN</a></li>
+            <li><a href="community.html">COMMUNITY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <p id="showHide" hidden="true">false</p>
+        <label for="check" class="checkbtn" onclick="showMenu()">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 8H50V13.5556H0V8ZM0 21.8889H50V27.4444H0V21.8889ZM0 35.7778H50V41.3333H0V35.7778Z" />
+            </svg>
+        </label>
+    </nav>
+
+    <div class="main-page">
+        <div class="learn-section">
+            <h1>LEARN</h1>
+            <h2>Welcome to your personal communication toolkit! Dive into our collection of materials that will provide helpful tips to navigate the challenges of the modern workplace.
+
+            <br><br>Download now and equip yourself with the keys to effective workplace communication.</h2>
+
+            <div class="learn-infogs">
+                <a class="li-row" href="infog-1.html">
+                    <img src="images/img-thumbnail-infog-1.png">
+                    <div class="li-texts">
+                        <h5>Conflict Resolution Phrases</h5>
+                        <p>In this infographic, we provide important words and conversational techniques to assist you in resolving problems at work.</p>
+                    </div>
+                </a>
+                <a class="li-row" href="infog-2.html">
+                    <img src="images/img-thumbnail-infog-2.png">
+                    <div class="li-texts">
+                        <h5>Workplace Etiquette</h5>
+                        <p>To assist you in navigating the professional environment with confidence, we've provided the essential elements of office etiquette in this infographic.</p>
+                    </div>
+                </a>
+                <a class="li-row" href="infog-3.html">
+                    <img src="images/img-thumbnail-infog-2.png">
+                    <div class="li-texts">
+                        <h5>Workplace Etiquette</h5>
+                        <p>To assist you in navigating the professional environment with confidence, we've provided the essential elements of office etiquette in this infographic.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="line-separator"></div>
+
+            <div class="learn-posters">
+                <img src="images/img-poster-1.png" onclick="showPrev1()">
+                <img src="images/img-poster-2.png" onclick="showPrev2()">
+                <img src="images/img-poster-3.png" onclick="showPrev3()">
+                <img src="images/img-poster-4.png" onclick="showPrev4()">
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <img class="footer-logo" src="images/icons/logo-color.svg">
+                <h2>bridging and uniting generations in a workplace.</h2>
+                <a class="footer-nav" href="index.html">HOME</a>
+                <a class="footer-nav" href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a>
+                <a class="footer-nav" href="learn.html">LEARN</a>
+                <a class="footer-nav" href="community.html">COMMUNITY</a>
+                <a class="footer-nav" href="about.html">ABOUT</a>
+
+            </div>
+        </div>
+        <div class="subfooter">
+            <p>&copy; COPYRIGHT 2023 BRIDGEN. <br>DEVELOPED BY BRIDGEN TEAM</p>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Navbar Show Hide Script-->
+
+<script>
+
+    function showMenu() {
+        var show = document.getElementById("showHide").innerHTML;
+        toggleScroll();
+
+        if (show == "false") {
+            document.getElementById('menu').id = "menu-show";
+            document.getElementById('showHide').innerHTML = "true";
+        }
+
+        if (show == "true") {
+            document.getElementById('menu-show').id = "menu";
+            document.getElementById('showHide').innerHTML = "false";
+        }
+
+    }
+
+    function toggleScroll() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
+    }
+
+    function toggleScrollBack() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'visible') ? 'auto' : 'visible';
+    }
+
+</script>
+
+<!--Prev Show Hide Script-->
+<script>
+    var prev1 = document.getElementById("prev1");
+    var prev2 = document.getElementById("prev2");
+    var prev3 = document.getElementById("prev3");
+    var prev4 = document.getElementById("prev4");
+
+    function showPrev1() {
+        prev1.style.display = "flex";
+        toggleScroll();
+    }
+
+    function showPrev2() {
+        prev2.style.display = "flex";
+        toggleScroll();
+    }
+
+    function showPrev3() {
+        prev3.style.display = "flex";
+        toggleScroll();
+    }
+
+    function showPrev4() {
+        prev4.style.display = "flex";
+        toggleScroll();
+    }
+
+    function hidePrev1() {
+        prev1.style.display = "none";
+        toggleScrollBack()
+    }
+
+    function hidePrev2() {
+        prev2.style.display = "none";
+        toggleScrollBack()
+    }
+
+    function hidePrev3() {
+        prev3.style.display = "none";
+        toggleScrollBack()
+    }
+
+    function hidePrev4() {
+        prev4.style.display = "none";
+        toggleScrollBack()
+    }
+
+</script>
+
+
+
+</html>
