@@ -58,6 +58,22 @@
         </div>
         <img class="prev-image" src="images/img-poster-4-720.png">
     </div>
+    <div id="prev5" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev5()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="https://drive.google.com/uc?export=download&id=1HH4095kxQnCd5TG_nF151jrJDm4qLAa4"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-5-720.png">
+    </div>
+    <div id="prev6" class="poster-prev">
+        <div class="prev-head">
+            <img class="prev-icon back" src="images/icons/icon-back.svg" onclick="hidePrev6()">
+            <!--<p class="prev-name">Lorem Ipsum</p>-->
+            <a href="https://drive.google.com/uc?export=download&id=1HH4095kxQnCd5TG_nF151jrJDm4qLAa4"><img class="prev-icon download" src="images/icons/icon-download.svg"></a>
+        </div>
+        <img class="prev-image" src="images/img-poster-6-720.png">
+    </div>
 
     <nav>
         <label class="logo"><a href="index.html">
@@ -117,6 +133,8 @@
                 <img src="images/img-poster-2.png" onclick="showPrev2()">
                 <img src="images/img-poster-3.png" onclick="showPrev3()">
                 <img src="images/img-poster-4.png" onclick="showPrev4()">
+                <img src="images/img-poster-5.png" onclick="showPrev5()">
+                <img src="images/img-poster-6.png" onclick="showPrev6()">
 
             </div>
 
@@ -181,6 +199,8 @@
     var prev2 = document.getElementById("prev2");
     var prev3 = document.getElementById("prev3");
     var prev4 = document.getElementById("prev4");
+    var prev5 = document.getElementById("prev5");
+    var prev6 = document.getElementById("prev6");
 
     function showPrev1() {
         prev1.style.display = "flex";
@@ -202,6 +222,16 @@
         toggleScroll();
     }
 
+    function showPrev5() {
+        prev5.style.display = "flex";
+        toggleScroll();
+    }
+
+    function showPrev6() {
+        prev6.style.display = "flex";
+        toggleScroll();
+    }
+
     function hidePrev1() {
         prev1.style.display = "none";
         toggleScrollBack()
@@ -219,6 +249,15 @@
 
     function hidePrev4() {
         prev4.style.display = "none";
+        toggleScrollBack()
+    }
+    function hidePrev5() {
+        prev5.style.display = "none";
+        toggleScrollBack()
+    }
+
+    function hidePrev6() {
+        prev6.style.display = "none";
         toggleScrollBack()
     }
 
