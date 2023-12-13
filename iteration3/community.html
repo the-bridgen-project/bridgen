@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>BridGen Community</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-color.svg">
+
+    <!-- custom styles-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+</head>
+
+<body>
+    
+
+    <nav>
+        <label class="logo"><a href="index.html">
+                <img src="images/icons/logo-color.svg"></a>
+        </label>
+        <ul id="menu">
+            <li class="nav-one"><a href="index.html">HOME</a></li>
+            <li><a href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a></li>
+            <li><a href="learn.html">LEARN</a></li>
+            <li><a class="active" href="community.html">COMMUNITY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <p id="showHide" hidden="true">false</p>
+        <label for="check" class="checkbtn" onclick="showMenu()">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 8H50V13.5556H0V8ZM0 21.8889H50V27.4444H0V21.8889ZM0 35.7778H50V41.3333H0V35.7778Z" />
+            </svg>
+        </label>
+    </nav>
+
+    <div class="main-page">
+        <div class="community-section">
+            <h1>COMMUNITY</h1>
+            <h2>Building Bridges, Uniting Generations: <br>Let your voice be heard! Welcome to our community forum!</h2>
+        
+
+        <div class="community-card">
+            <a class="li-row" href="community-1.html">
+                <img src="images/icons-01.png" class="community-pic">
+                <div class="li-texts">
+                    <h5 class="community-head">#MyBridgenStory</h5>
+                    <p class="community-text">Join us in inspiring others with your stories of resolving workplace communication challenges.</p>
+                </div>
+            </a>
+        </div>
+        <div class="community-card">
+            <a class="li-row" href="community-2.html">
+                <img src="images/icons-02.png" class="community-pic">
+                <div class="li-texts">
+                    <h5 class="community-head">#BridgenWorQuette</h5>
+                    <p class="community-text">Join us in exploring the keys to a thriving and respectful work environment. Share your experiences, seek guidance, and let's navigate the world of Workplace Etiquette together!</p>
+                </div>
+            </a>
+        </div>
+        <div class="community-card">
+            <a class="li-row" href="community-3.html">
+                <img src="images/icons-03.png" class="community-pic">
+                <div class="li-texts">
+                    <h5 class="community-head">#BridgenTheGap</h5>
+                    <p class="community-text">Join the conversation to share insights and learn from others, building stronger connections among colleagues of all ages.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+       
+
+        
+        <div class="forum-separator"></div>
+
+        
+
+
+        <div class="to-contact">
+            <h2>Don't hesitate to reach out!</h2>
+            <a href="contact.html">Contact us whenever you need!</a>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <img class="footer-logo" src="images/icons/logo-color.svg">
+                <h2>bridging and uniting generations in a workplace.</h2>
+                <a class="footer-nav" href="index.html">HOME</a>
+                <a class="footer-nav" href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a>
+                <a class="footer-nav" href="learn.html">LEARN</a>
+                <a class="footer-nav" href="community.html">COMMUNITY</a>
+                <a class="footer-nav" href="about.html">ABOUT</a>
+
+            </div>
+        </div>
+        <div class="subfooter">
+            <p>&copy; COPYRIGHT 2023 BRIDGEN. <br>DEVELOPED BY BRIDGEN TEAM</p>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Navbar Show Hide Script-->
+
+<script>
+
+    function showMenu() {
+        var show = document.getElementById("showHide").innerHTML;
+        toggleScroll();
+
+        if (show == "false") {
+            document.getElementById('menu').id = "menu-show";
+            document.getElementById('showHide').innerHTML = "true";
+        }
+
+        if (show == "true") {
+            document.getElementById('menu-show').id = "menu";
+            document.getElementById('showHide').innerHTML = "false";
+        }
+
+    }
+
+    function toggleScroll() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
+    }
+
+</script>
+
+</html>

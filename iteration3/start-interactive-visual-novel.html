@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Interactive Visual Novel</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-color.svg">
+
+    <!-- custom styles-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0&appId=1195275848005257&autoLogAppEvents=1" nonce="HDxHhaC1"></script>
+
+    <nav>
+        <label class="logo"><a href="index.html">
+                <img src="images/icons/logo-color.svg"></a>
+        </label>
+        <ul id="menu">
+            <li class="nav-one"><a href="index.html">HOME</a></li>
+            <li><a href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a></li>
+            <li><a href="learn.html">LEARN</a></li>
+            <li><a href="community.html">COMMUNITY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+
+        <p id="showHide" hidden="true">false</p>
+        <label for="check" class="checkbtn" onclick="showMenu()">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 8H50V13.5556H0V8ZM0 21.8889H50V27.4444H0V21.8889ZM0 35.7778H50V41.3333H0V35.7778Z" />
+            </svg>
+        </label>
+    </nav>
+
+    <div class="main-page">
+        <div class="ivn-play-section">
+            <h1>INTERACTIVE VISUAL NOVEL</h1>
+            <h2>"Harmonyville" is an interactive visual novel set in Harmonyville, where players assume the role of Alex, navigating communication barriers in InnovateTech's diverse workplace. Through decision-making and problem-solving, players unravel generational dynamics, foster collaboration, and learn to harmonize diverse perspectives for meaningful connections in the corporate world.</h2>
+            <br>
+            <h2 style="font-weight: bold;">Disclaimer:
+                Please be aware that certain parts of this content may feature screen shaking effects.
+
+                
+            </br>
+        </br>
+                For Mobile Users: Kindly rotate your phone landscape for better experience!
+                </br>
+                </h2>
+                <h2>
+                For Mac Users: To exit full screen, kindly hover your mouse to your top screen until the bar pops out and click the "Exit Full Screen".
+                </br>
+                </br>
+                For Windows Users: Press "Esc" to exit full screen.
+                 </br>
+                </h2>
+            </br>
+            <div class="ivn-embed">
+                <iframe frameborder="0" src="https://itch.io/embed-upload/9182974?color=333333" allowfullscreen="" width="740" height="500"><a href="https://bridgen.itch.io/harmonyville">Play Harmonyville on itch.io</a></iframe>
+            </div>
+            <br>
+        </div>
+
+     
+
+        <div class="forum-separator"></div>
+        <div class="forum-section">
+            <div class="fb-comments" data-href="https://bridgen.life/iteration1/start-interactive-visual-novel.html" data-width="100%" data-numposts="5"></div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <img class="footer-logo" src="images/icons/logo-color.svg">
+                <h2>bridging and uniting generations in a workplace.</h2>
+                <a class="footer-nav" href="index.html">HOME</a>
+                <a class="footer-nav" href="interactive-visual-novel.html">INTERACTIVE VISUAL NOVEL</a>
+                <a class="footer-nav" href="learn.html">LEARN</a>
+                <a class="footer-nav" href="community.html">COMMUNITY</a>
+                <a class="footer-nav" href="about.html">ABOUT</a>
+
+            </div>
+        </div>
+        <div class="subfooter">
+            <p>&copy; COPYRIGHT 2023 BRIDGEN. <br>DEVELOPED BY BRIDGEN TEAM</p>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Navbar Show Hide Script-->
+
+<script>
+
+    function showMenu() {
+        var show = document.getElementById("showHide").innerHTML;
+        toggleScroll();
+
+        if (show == "false") {
+            document.getElementById('menu').id = "menu-show";
+            document.getElementById('showHide').innerHTML = "true";
+        }
+
+        if (show == "true") {
+            document.getElementById('menu-show').id = "menu";
+            document.getElementById('showHide').innerHTML = "false";
+        }
+
+    }
+
+    function toggleScroll() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
+    }
+
+</script>
+
+</html>

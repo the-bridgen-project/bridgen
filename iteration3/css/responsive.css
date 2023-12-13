@@ -1,0 +1,2730 @@
+:root {
+    /*COLOR PALETTE*/
+    --white: #F6F6F6;
+    --cream: #FFF2D6;
+    --yellow: #FFD460;
+    --orange: #F07B3D;
+    --red: #EA5455;
+    --dark-blue: #2E4059;
+    --dark-gray: #0A0E14;
+}
+
+@media (max-width: 1800px) {
+    .scroll-to-main-btn {
+        top: 750px;
+    }
+
+    .banner-section {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .scroll-to-main-btn {
+        top: 700px;
+    }
+
+    .banner-section .banner-h1 {
+        margin: 150px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        margin: 415px 0 0 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    .scroll-to-main-btn {
+        top: 650px;
+    }
+
+    .banner-section .banner-h1 {
+        width: 375px;
+        margin: 125px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        margin: 360px 0 0 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .banner-img {
+        width: 100%;
+        height: 753px;
+        object-fit: cover;
+
+        z-index: -1;
+    }
+
+    label.logo {
+        margin: 0 auto 0 100px;
+    }
+
+    .footer-column {
+        width: 300px;
+        height: 120px;
+        margin: 0;
+        margin: 25px 0 0 100px;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .about-bridgen {
+        width: 720px;
+    }
+
+    .about-bridgen p{
+        width: 720px;
+    }
+
+    .mv-row{
+        width: 720px;
+        align-items: center;
+    }
+
+    .mv-row img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .mv-row .mv-texts{
+        width: 350px;
+        margin: 0;
+    }
+
+    .about-research{
+        width: 720px;
+        height: 150px;
+    }
+
+    /**OUR TEAM**/
+    .main-page{
+        background-color: var(--cream);
+    }
+
+    .au-team-section {
+        width: 860px;
+        height: auto;
+        margin: 50px auto 100px auto;
+    }
+
+    .au-team-carousel-gallery {
+        width: 860px;
+        height: auto;
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 700px;
+        margin: auto;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1) {
+        margin: 0 25px 25px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2) {
+        margin: 0 25px 25px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3) {
+        margin: 0 0 25px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4) {
+        margin: 25px 25px 0 auto;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 25px auto 0 25px;
+    }
+    /**END OF OUR TEAM**/
+
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 720px;
+    }
+
+    .research-texts h3 br{
+        display: block;
+    }
+
+
+    /**CONTACT**/
+
+    .contact-row{
+        width: 800px;
+    }
+
+    .main-featured-blogs h5{
+    font-size: 18px;
+    }
+
+    .mfb-texts p{
+    font-size: 14px;
+    margin: 7px 0 0 0;
+    }
+
+    /*******************BLOGS PAGE********************/
+
+    .mfb-row{
+        width: 800px;
+    }
+
+    .main-blogs-list{
+        width: 800px;
+    }
+
+    .line-separator{
+        width: 800px;
+    }
+
+    .text-left{
+        width: 800px;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .learn-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 720px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 720px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 360px;
+        height: 160px;
+        /*object-fit: cover;*/
+        margin: 20px 0 20px 20px;
+    }
+
+    .li-texts{
+        padding: 30px 0 30px 40px;
+    }
+
+    .learn-infogs h5{
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 700px;
+        height: 1500px;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 720px;
+        margin: 40px 0 40px 0;
+    }
+    
+    .infographics img{
+        width: 720px;
+    }
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 720px;
+    }
+
+    .ivn-instructions{
+        width: 720px;
+        margin: 50px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+        width: 650px;
+    }
+
+    .ivn-instructions ol{
+        width: 600px;
+        margin: 20px 0 30px 0;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 600px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+    .ivn-play-section img{
+        width: 720px;
+        height: auto;
+        margin: 50px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 16px;
+        margin: 5px 0 0 0;
+        width: 720px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 720px;
+    }
+
+
+    /*******************COMMUNITY PAGE********************/
+
+    .community-section h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .community-section h2 {
+        font-size: 18px;
+        margin: 20px 0 75px 0;
+        width: 720px;
+    }
+
+    .community-section h2 br{
+        display: none;
+    }
+
+    .community-story h2{
+        font-size: 22px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        margin: 40px 0 0 0;
+        width: 720px;
+    }
+
+    .community-story p{
+        font-size: 16px;
+        margin: 20px 0 50px 0;
+        width: 720px;
+    }
+
+    .gforms-embed{
+        margin: 40px 0 80px 0;
+        width: 720px;
+    }
+}
+
+
+
+
+@media (max-width: 1156px) {
+
+/*******************NAVBAR********************/
+
+label.logo {
+    margin: 0 auto 0 50px;
+}
+
+.checkbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.checkbtn svg {
+    height: 30px;
+    fill: var(--dark-blue);
+}
+
+.checkbtn svg:hover {
+    height: 30px;
+    fill: var(--orange);
+    transition: all .1s ease;
+}
+
+#menu {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 64px;
+    left: -100%;
+    margin: 0;
+    padding: 0;
+
+    z-index: 1000;
+
+    background: var(--yellow);
+    text-align: center;
+    transition: all .5s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu-show {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 64px;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+
+    background: var(--yellow);
+    text-align: center;
+    transition: all .5s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+nav ul .nav-one {
+    margin: 40px 0 20px 0;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: var(--dark-blue);
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--orange);
+}
+
+}
+
+@media (max-width: 900px) {
+    .feature-section #section-title {
+        margin: 70px 0 40px 0;
+    }
+    
+    #section-description{
+        margin: 10px 0 75px 0;
+    }
+
+    .feature-row{
+        width: 720px;
+        margin: 0 0 30px 0;
+        justify-content: center;
+    }
+
+    .mfb-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mfb-column{
+        margin: 0;
+    }
+
+    .main-featured-blogs h5{
+    font-size: 24px;
+    }
+
+    .mfb-texts p{
+    font-size: 16px;
+    margin: 7px 0 0 0;
+    }
+
+    .feature-blog {
+        width: 350px;
+        height: auto;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 350px;
+        height: 197px;
+    }
+
+    .feature-blog img {
+        width: 300px;
+        height: auto;
+    }
+
+    .mfb-row{
+        width: 640px;
+    }
+
+    .main-blogs-list{
+        width: 640px;
+    }
+
+    .line-separator{
+        width: 640px;
+    }
+
+    .mfb-texts{
+        padding: 0 80px;
+    }
+
+    .blogs-main-section h5{
+        font-size: 20px;
+    }
+
+    .blogs-main-section p{
+        font-size: 14px;
+        margin: 7px 0 0 0;
+    }
+
+    .text-left{
+        width: 640px;
+    }
+
+    /**OUR TEAM**/
+
+    .au-team-section {
+        width: 640px;
+    }
+
+    .au-team-carousel-gallery {
+        width: 640px;
+    }
+
+    .au-team-carousel-cont {
+        width: 640px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1) {
+        margin: 0 25px 50px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2) {
+        margin: 0 0 50px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3) {
+        margin: 0 25px 50px 0;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4) {
+        margin: 0 0 50px 25px;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+    /**END OF OUR TEAM**/
+}
+
+
+
+@media (max-width: 834px) {
+
+    
+
+    /*******************BANNER SECTION********************/
+
+    .banner-section {
+        top: 64px;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 300px 0 0 0;
+    }
+
+    .banner-section .banner-h1 {
+        width: 275px;
+        margin: 125px 0 20px 0;
+    }
+
+
+    /*******************FEATURE SECTION********************/
+    .feature-row, .shop-row {
+        width: 640px;
+        margin: 0 0 20px 0;
+    }
+
+    .feature-blog {
+        width: 311px;
+        height: auto;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 311px;
+        height: 175px;
+    }
+
+    .feature-blog img {
+        width: 275px;
+        height: auto;
+    }
+
+    /***************ABOUT PAGE*****************/
+
+    .about-bridgen {
+        width: 640px;
+    }
+
+    .about-section .about-h1 {
+        width: 200px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 640px;
+        font-size: 14px;
+    }
+
+    .mv-row{
+        width: 640px;
+        align-items: center;
+    }
+
+    .mv-row img{
+        width: 300px;
+        height: auto;
+    }
+    
+    .mv-row .mv-texts{
+        width: 300px;
+        margin: 0;
+    }
+
+    .about-mv h2{
+        font-size: 16px;
+    }
+
+    .about-mv p{
+        font-size: 14px;
+    }
+
+    .about-research{
+        width: 640px;
+        height: 150px;
+    }
+
+    .about-research h2 br{
+        display: block;
+    }
+
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 640px;
+    }
+
+    .research-texts h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .research-texts h3 br{
+        display: block;
+    }
+
+    .research-texts p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+    
+        margin: 150px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 18px;
+        margin: 40px 0 0 0;
+    }
+
+    .contact-row{
+        width: 640px;
+    }
+
+    .contact-info-block{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        transition: all .1s ease;
+    }
+
+    .contact-section img{
+        width: 50px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
+
+    .contact-info-block p br{
+        display: block;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .learn-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 640px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 640px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 360px;
+        height: 160px;
+        /*object-fit: cover;*/
+        margin: 20px 0 20px 20px;
+    }
+
+    .li-texts{
+        padding: 20px 0 20px 40px;
+    }
+
+    .learn-infogs h5{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 550px;
+        height: 1500px;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 250px;
+        height: auto;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 640px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 640px;
+    }
+
+    .ivn-play-section img{
+        width: 640px;
+        height: auto;
+        margin: 50px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 16px;
+        margin: 5px 0 0 0;
+        width: 640px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 640px;
+    }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 640px;
+    }
+
+    .ivn-instructions{
+        width: 640px;
+        margin: 50px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+        width: 580px;
+    }
+
+    .ivn-instructions ol{
+        width: 520px;
+        margin: 20px 0 30px 0;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 520px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+    /*******************COMMUNITY PAGE********************/
+
+    .community-section h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 75px 0 0 0;
+    }
+
+    .community-section h2 {
+        font-size: 16px;
+        margin: 20px 0 50px 0;
+        width: 640px;
+    }
+
+    .community-section h2 br{
+        display: none;
+    }
+
+    .community-story h2{
+        font-size: 22px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        margin: 40px 0 0 0;
+        width: 640px;
+    }
+
+    .community-story p{
+        font-size: 16px;
+        margin: 20px 0 50px 0;
+        width: 640px;
+    }
+
+    .gforms-embed{
+        margin: 40px 0 80px 0;
+        width: 640px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    #section-description{
+        width: 520px;
+        margin: 10px 0 50px 0;
+    }
+
+    .feature-row, .shop-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        width: auto;
+        margin: 0;
+    }
+
+    .feature-section .button {
+        margin: 10px 0 70px 0;
+    }
+
+    .feature-blog {
+        width: 350px;
+        height: auto;
+
+        margin: 0 0 40px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 350px;
+        height: 197px;
+    }
+
+    .feature-blog img {
+        width: 350px;
+        height: auto;
+    }
+
+    #feature-blog-btn {
+        margin: 40px 0 70px 0;
+    }
+
+
+    /***************ABOUT PAGE*****************/
+
+    .about-bridgen {
+        width: 490px;
+    }
+
+    .about-section .about-h1 {
+        width: 200px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
+        margin: 10px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 490px;
+        font-size: 14px;
+
+        margin: 20px 0 30px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 490px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 350px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 490px;
+        margin: 0;
+
+        order: 2;
+    }
+
+    .about-mv h2{
+        font-size: 16px;
+    }
+
+    .about-mv p{
+        font-size: 14px;
+    }
+
+    .about-research{
+        width: 490px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+    }
+
+    .about-research h2 br{
+        display: block;
+    }
+
+    .about-research a{
+        font-size: 14px;
+    }
+
+     /**OUR TEAM**/
+
+     .au-team-section {
+        width: 400px;
+    }
+
+    .au-team-section-h2 {
+        font-size: 24px;
+        line-height: 48px;
+    
+        width: 200px;
+        height: 48px;
+      }
+
+    .au-team-carousel-gallery {
+        width: 340px;
+        height: auto;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 340px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+    .au-team-name{
+        font-size: 14px;
+      }
+    /**END OF OUR TEAM**/
+
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 490px;
+    }
+
+    .research-texts h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .research-texts h3 br{
+        display: none;
+    }
+
+    .research-texts p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        margin: 100px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 18px;
+        margin: 30px 0 0 0;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 0 0;
+    
+        transition: all .1s ease;
+    }
+
+    .contact-section img{
+        width: 50px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
+
+    /*******************BLOGS PAGE********************/
+
+    .mfb-row{
+        width: 400px;
+        flex-direction: column;
+    }
+
+    .main-blogs-list{
+        width: 500px;
+    }
+
+    .line-separator{
+        width: 500px;
+    }
+
+    .mfb-texts{
+        padding: 0 20px 0 20px;
+    }
+
+    .main-featured-blogs h5{
+    font-size: 18px;
+    }
+
+    .mfb-texts p{
+    font-size: 14px;
+    margin: 7px 0 0 0;
+    }
+
+    .blogs-main-section h5{
+        font-size: 20px;
+    }
+
+    .blogs-main-section p{
+        font-size: 14px;
+        margin: 7px 0 0 0;
+    }
+
+    .mfb-row img{
+        width: 360px;
+        height: 200px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .text-left{
+        width: 500px;
+    }
+
+    /********************FOOTER*******************/
+
+    .footer {
+        height: 280px;
+        transition: all .4s ease;
+
+        justify-content: center;
+    }
+
+    .footer-column {
+        width: 300px;
+        height: auto;
+        margin: 20px 0 0 0;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        transition: all .4s ease;
+    }
+
+    .footer h2 {
+        margin: 0 0 20px 0;
+    }
+
+    .footer-nav {
+        font-size: 12px;
+        margin: 0 0 12px 0;
+    }
+
+    /**SUBFOOTER**/
+
+    .subfooter{
+        height: 40px;
+    }
+
+    .subfooter p{
+        line-height: 14px;
+    }
+
+    .subfooter br{
+        display: block;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
+
+    .learn-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 490px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 360px;
+        height: auto;
+        /*object-fit: cover;*/
+        margin: 20px;
+    }
+
+    .li-texts{
+        width: 360px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .learn-infogs h5{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: auto;
+        height: 2500px;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 250px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 490px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 490px;
+    }
+
+    .prev-image{
+        width: 490px;
+        height: auto;
+        margin: auto;
+    }
+
+
+    .ivn-play-section img{
+        width: 490px;
+        height: auto;
+        margin: 30px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 490px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 490px;
+    }
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 490px;
+    }
+
+    .ivn-instructions{
+        width: 490px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 14px;
+        margin: 40px 0 0 0;
+        width: 420px;
+    }
+
+    .ivn-instructions ol{
+        width: 380px;
+        margin: 20px 0 30px 0;
+        font-size: 14px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 380px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+
+    /*******************COMMUNITY PAGE********************/
+
+    .community-section h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
+
+    .community-section h2 {
+        font-size: 16px;
+        margin: 20px 0 40px 0;
+        width: 420px;
+    }
+
+    .community-section h2 br{
+        display: block;
+    }
+
+    .community-story h2{
+        font-size: 22px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        margin: 40px 0 0 0;
+        width: 490px;
+    }
+
+    .community-story p{
+        font-size: 16px;
+        margin: 20px 0 50px 0;
+        width: 490px;
+    }
+
+    .gforms-embed{
+        margin: 40px 0 80px 0;
+        width: 490px;
+    }
+
+    .to-contact h2, .to-contact a{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .banner-section .banner-h1 {
+        width: 250px;
+        margin: 120px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 275px 0 0 0;
+    }
+
+    #section-title {
+        font-size: 24px;
+        margin: 50px 0 0 0;
+    }
+
+    .feature-section #section-title {
+        margin: 50px 0 40px 0;
+    }
+
+    #section-description{
+        font-size: 14px;
+        margin: 10px 0 50px 0;
+        width: 420px;
+    }
+
+    /***************ABOUT PAGE*****************/
+
+    .about-bridgen {
+        width: 400px;
+    }
+
+    .about-section .about-h1 {
+        width: 150px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
+        font-size: 16px;
+        margin: 5px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 400px;
+        font-size: 14px;
+
+        margin: 10px 0 30px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 400px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 300px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 400px;
+        margin: 0;
+
+        order: 2;
+    }
+
+    .about-mv h2{
+        font-size: 16px;
+    }
+
+    .about-mv p{
+        font-size: 14px;
+    }
+
+    .about-research{
+        width: 400px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+    }
+
+    .about-research h2 br{
+        display: block;
+    }
+
+    .about-research a{
+        font-size: 14px;
+    }
+
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 400px;
+    }
+
+    .research-texts h3{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .research-texts h3 br{
+        display: none;
+    }
+
+    .research-texts p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        margin: 75px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 14px;
+        margin: 30px 0 0 0;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        height: 150px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-section img{
+        width: 40px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 16px;
+        margin: 15px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 15px 0 0 0;
+    }
+
+    /*******************BLOGS PAGE********************/
+
+    .mfb-row{
+        width: 360px;
+        flex-direction: column;
+    }
+
+    .main-blogs-list{
+        width: 360px;
+    }
+
+    .line-separator{
+        width: 360px;
+    }
+
+    .mfb-texts{
+        padding: 0 20px 0 20px;
+    }
+
+    .main-featured-blogs h5{
+        font-size: 18px;
+        }
+
+    .blogs-main-section p{
+        font-size: 14px;
+        margin: 7px 0 0 0;
+    }
+
+    .mfb-row img{
+        width: 320px;
+        height: 200px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .blogs-main-section #section-description{
+        margin: 10px 0 30px 0;
+    }
+
+    .text-left{
+        width: 360px;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
+
+    .learn-section h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        width: 320px;
+    }
+
+    .learn-infogs{
+        margin: 40px 0;
+    }
+
+    .li-row{
+        width: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 280px;
+        height: auto;
+        /*object-fit: cover;*/
+        margin: 20px;
+    }
+
+    .li-texts{
+        width: 280px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .learn-infogs h5{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 14px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: auto;
+        height: 1500px;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 250px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 400px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 400px;
+    }
+
+    .prev-image{
+        width: 380px;
+        height: auto;
+        margin: auto;
+    }
+
+
+    .ivn-play-section img{
+        width: 400px;
+        height: auto;
+        margin: 30px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 400px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 400px;
+    }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+        width: 300px;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        width: 400px;
+    }
+
+    .ivn-instructions{
+        width: 400px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        width: 360px;
+    }
+
+    .ivn-instructions ol{
+        width: 300px;
+        margin: 20px 0 30px 0;
+        font-size: 14px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 300px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+
+    /*******************COMMUNITY PAGE********************/
+
+    .community-section h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin: 50px 0 0 0;
+    }
+
+    .community-section h2 {
+        font-size: 14px;
+        margin: 20px 0 40px 0;
+        width: 380px;
+    }
+
+    .community-section h2 br{
+        display: block;
+    }
+
+    .community-story h2{
+        font-size: 18px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        margin: 40px 0 0 0;
+        width: 400px;
+    }
+
+    .community-story p{
+        font-size: 14px;
+        margin: 20px 0 50px 0;
+        width: 400px;
+    }
+
+    .gforms-embed{
+        margin: 40px 0 80px 0;
+        width: 400px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .banner-img {
+        width: 100%;
+        height: 680px;
+        object-fit: cover;
+
+        z-index: -1;
+    }
+
+    .banner-section .banner-h1 {
+        width: 200px;
+        margin: 120px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 250px 0 0 0;
+        width: 250px;
+        line-height: 20px;
+    }
+
+    .scroll-to-main-btn {
+        top: 550px;
+    }
+
+    .scroll-to-main-btn span {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    #section-title {
+        font-size: 18px;
+        margin: 40px 0 0 0;
+    }
+
+    #section-description{
+        font-size: 12px;
+        margin: 5px 0 30px 0;
+        width: 300px;
+    }
+
+    .feature-blog {
+        width: 311px;
+        height: auto;
+
+        margin: 0 0 30px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 311px;
+        height: 175px;
+    }
+
+    .feature-blog img {
+        width: 311px;
+        height: auto;
+    }
+
+    .feature-blog-title {
+        font-size: 14px;
+    }
+
+    #feature-blog-btn {
+        margin: 30px 0 70px 0;
+    }
+
+    .button {
+        width: 150px;
+        height: 30px;
+    }
+
+    .button p {
+        font-size: 14px;
+    }
+
+    /***************ABOUT PAGE*****************/
+
+    .about-bridgen {
+        width: 300px;
+    }
+
+    .about-section .about-h1 {
+        width: 120px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 300px;
+        font-size: 12px;
+
+        margin: 5px 0 20px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 300px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 275px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 300px;
+        margin: 20px 0 0 0;
+
+        order: 2;
+    }
+
+    .about-mv h2{
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .about-mv p{
+        font-size: 12px;
+    }
+
+    .about-research{
+        width: 300px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .about-research h2 br{
+        display: block;
+    }
+
+    .about-research a{
+        font-size: 12px;
+    }
+
+    /**OUR TEAM**/
+
+    .au-team-section {
+        width: 300px;
+    }
+
+    .au-team-section-h2 {
+        font-size: 18px;
+        line-height: 40px;
+    
+        width: 150px;
+        height: 40px;
+      }
+
+    .au-team-carousel-gallery {
+        width: 300px;
+        height: auto;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .au-team-carousel-cont {
+        width: 260px;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(1),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(2),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(3),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(4),
+    .au-team-carousel-cont .au-team-carousel-card:nth-of-type(5) {
+        margin: 0 auto 50px auto;
+    }
+
+    .au-team-name{
+        font-size: 14px;
+      }
+    /**END OF OUR TEAM**/
+
+
+    /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 300px;
+    }
+
+    .research-texts h3{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .research-texts h3 br{
+        display: block;
+    }
+
+    .research-texts p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        font-size: 18px;
+        line-height: 18px;
+        margin: 50px 0 0 0;
+    }
+
+    .contact-section h2 {
+        margin: 20px 0 0 0;
+    }
+
+    .contact-section h2 br{
+        display: block;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        height: 150px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-section img{
+        width: 40px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 15px 0 0 0;
+    }
+
+
+    /*******************BLOGS PAGE********************/
+
+    .mfb-row{
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .main-blogs-list{
+        width: 300px;
+    }
+
+    .line-separator{
+        width: 300px;
+    }
+
+    .mfb-texts{
+        padding: 0 20px 0 20px;
+    }
+
+    .main-featured-blogs h5{
+        font-size: 16px;
+        }
+    
+    .mfb-texts p{
+    font-size: 12px;
+    margin: 7px 0 0 0;
+    }
+
+    .blogs-main-section p{
+        font-size: 12px;
+        margin: 7px 0 0 0;
+    }
+
+    .mfb-row img{
+        width: 260px;
+        height: 150px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .blogs-main-section #section-description{
+        margin: 10px 0 30px 0;
+    }
+
+    .text-left{
+        width: 300px;
+    }
+
+    #margin-bot-remove{
+        margin-bottom: 20px;
+    }
+
+    /*******************LEARN PAGE********************/
+    .learn-section h1{
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+        width: 280px;
+    }
+
+    .learn-section h2{
+        font-size: 14px;
+        margin: 10px 0 0 0;
+        width: 280px;
+    }
+
+    .learn-infogs{
+        margin: 20px 0;
+    }
+
+    .li-row{
+        width: 280px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .li-row img{
+        width: 240px;
+        height: auto;
+        /*object-fit: cover;*/
+        margin: 20px;
+    }
+
+    .li-texts{
+        width: 240px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .learn-infogs h5{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .learn-infogs p{
+        font-size: 12px;
+        margin: 7px 0 0 0;
+    }
+
+    .learn-posters{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: auto;
+        height: 2000px;
+    
+        margin: 40px 0;
+    }
+
+    .learn-posters img{
+        width: 220px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .learn-posters img:hover{
+        outline: 5px solid var(--yellow);
+    }
+
+    .infographics{
+        width: 280px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .infographics img{
+        width: 280px;
+    }
+
+    .prev-image{
+        width: 280px;
+        height: auto;
+        margin: auto;
+    }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+        width: 240px;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 14px;
+        margin: 10px 0 0 0;
+        width: 280px;
+    }
+
+    .ivn-instructions{
+        width: 300px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+        width: 260px;
+    }
+
+    .ivn-instructions ol{
+        width: 220px;
+        margin: 20px 0 30px 0;
+        font-size: 12px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 220px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+    .ivn-play-section img{
+        width: 300px;
+        height: auto;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 14px;
+        margin: 5px 0 0 0;
+        width: 280px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 300px;
+    }
+
+
+    /*******************COMMUNITY PAGE********************/
+
+    .community-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+    }
+
+    .community-section h2 {
+        font-size: 14px;
+        margin: 10px 0 40px 0;
+        width: 280px;
+    }
+
+    .community-section h2 br{
+        display: none;
+    }
+
+    .community-story h2{
+        font-size: 18px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        margin: 40px 0 0 0;
+        width: 280px;
+    }
+
+    .community-story p{
+        font-size: 14px;
+        margin: 20px 0 50px 0;
+        width: 280px;
+    }
+
+    .gforms-embed{
+        margin: 40px 0 80px 0;
+        width: 280px;
+    }
+}
+
+
+
+
+@media (max-width: 360px) {
+
+    .banner-img {
+        width: 100%;
+        height: 540px;
+        object-fit: cover;
+
+        z-index: -1;
+    }
+
+    .banner-section h1 {
+        font-size: 36px;
+        margin: 150px 0 20px 0;
+    }
+
+    .banner-section .banner-h1 {
+        width: 150px;
+        margin: 100px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 200px 0 0 0;
+        width: 250px;
+        line-height: 20px;
+    }
+
+    .scroll-to-main-btn {
+        top: 440px;
+    }
+
+    .feature-blog {
+        width: 200px;
+        height: 130px;
+
+        margin: 0 0 30px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title, .feature-blog-title {
+        width: 200px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        background-color: #ffd560e4;
+    }
+
+    .feature-blog img {
+        width: 200px;
+        height: 130px;
+
+        object-fit: cover;
+    }
+
+    #feature-blog-btn {
+        margin: 20px 0 70px 0;
+    }
+
+    /***************ABOUT PAGE*****************/
+
+    .about-bridgen {
+        width: 250px;
+    }
+
+    .about-section .about-h1 {
+        width: 100px;
+        margin: 50px 0 0 0;
+    }
+
+    .about-bridgen h2 {
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+
+    .about-bridgen p{
+        width: 250px;
+        font-size: 12px;
+
+        margin: 5px 0 20px 0;
+    }
+
+    .about-mv{
+        padding: 0 0 50px 0;
+    }
+
+    .mv-row{
+        width: 250px;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 50px 0 ;
+    }
+
+    .mv-row img{
+        width: 220px;
+        height: auto;
+
+        order: 1;
+    }
+    
+    .mv-row .mv-texts{
+        width: 250px;
+        margin: 20px 0 0 0;
+
+        order: 2;
+    }
+
+    .about-mv h2{
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .about-mv p{
+        font-size: 12px;
+    }
+
+    .about-research{
+        width: 250px;
+        height: 150px;
+    }
+
+    .about-research h2{
+        margin: 0;
+        font-size: 12px;
+
+        width: 200px;
+    }
+
+    .about-research h2 br{
+        display: none;
+    }
+
+    .about-research h2 br::before{
+        margin: 5px;
+    }
+
+    .about-research a{
+        font-size: 12px;
+    }
+
+    .au-team-section-h2 {
+        font-size: 18px;
+        line-height: 40px;
+    
+        width: 150px;
+        height: 40px;
+      }
+
+
+      /**RESEARCH PAGE**/
+
+    .research-texts{
+        width: 250px;
+    }
+
+    .research-texts h3{
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .research-texts h3 br{
+        display: none;
+    }
+
+    .research-texts p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        font-size: 18px;
+        line-height: 18px;
+        margin: 40px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        height: 120px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-section img{
+        width: 30px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 10px 0 0 0;
+    }
+
+    /*******************BLOGS PAGE********************/
+
+    .mfb-row{
+        width: 250px;
+        flex-direction: column;
+        margin: 0 0 40px 0;
+    }
+
+    .mfb-row:hover{
+        background-color: transparent;
+    }
+
+    .main-blogs-list{
+        width: 250px;
+    }
+
+    .line-separator{
+        max-width: 300px;
+    }
+
+    .mfb-texts{
+        padding: 0;
+    }
+
+    .main-featured-blogs h5{
+        font-size: 14px;
+        }
+
+    .blogs-main-section h5:hover{
+        color: var(--orange);
+        text-decoration: underline;
+    
+        transition: all .2s ease;
+    }
+
+    .blogs-main-section p{
+        font-size: 12px;
+        margin: 7px 0 0 0;
+    }
+
+    .mfb-row img{
+        width: 250px;
+        height: 130px;
+        object-fit: cover;
+        margin: 0 0 15px 0;
+    }
+
+    .blogs-main-section #section-description{
+        margin: 10px 0 30px 0;
+    }
+
+    .text-left{
+        width: 300px;
+        text-align: center;
+    }
+
+    #margin-bot-remove{
+        margin-bottom: 10px;
+    }
+
+    #margin-bot-remove2{
+        margin-bottom: 10px;
+    }
+
+
+    /******FOOTER******/
+
+    .footer {
+        height: 300px;
+        transition: all .4s ease;
+
+        justify-content: center;
+    }
+
+    .footer h2 {
+        margin: 0 0 20px 0;
+        width: 190px;
+        text-align: center;
+    }
+
+
+    .prev-image{
+        width: 240px;
+        height: auto;
+        margin: auto;
+    }
+
+
+    /*******************HYPER NARRATIVE PAGE********************/
+
+    .ivn-section h1, .ivn-play-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+        width: 240px;
+    }
+
+    .ivn-section h2, .ivn-play-section h2{
+        font-size: 14px;
+        margin: 10px 0 0 0;
+        width: 240px;
+    }
+
+    .ivn-instructions{
+        width: 260px;
+        margin: 30px 0 0 0;
+    }
+
+    .ivn-instructions h3{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+        width: 220px;
+    }
+
+    .ivn-instructions ol{
+        width: 180px;
+        margin: 20px 0 30px 0;
+        font-size: 12px;
+    }
+
+    .ivn-instructions .choices, .ivn-instructions .characters{
+        width: 180px;
+        height: auto;
+        margin: 5px 0 20px 0;
+    }
+
+    .ivn-play-section img{
+        width: 240px;
+        height: auto;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h2{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
+
+    .community-survey h3{
+        font-size: 12px;
+        margin: 5px 0 0 0;
+        width: 240px;
+    }
+
+    .community-survey a{
+        font-size: 16px;
+        margin: 20px 0 75px 0;
+    
+        width: 200px;
+        height: 60px;
+    }
+
+
+    /*******************COMMUNITY PAGE********************/
+
+    .community-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 0;
+    }
+
+    .community-section h2 {
+        font-size: 14px;
+        margin: 10px 0 40px 0;
+        width: 200px;
+    }
+
+    .community-section h2 br{
+        display: none;
+    }
+
+    .community-story h2{
+        font-size: 14px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        margin: 40px 0 0 0;
+        width: 240px;
+    }
+
+    .community-story p{
+        font-size: 12px;
+        margin: 10px 0 50px 0;
+        width: 240px;
+    }
+
+    .gforms-embed{
+        margin: 40px 0 80px 0;
+        width: 260px;
+    }
+
+    .to-contact h2, .to-contact a{
+        font-size: 12px;
+    }
+}
